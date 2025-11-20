@@ -1,0 +1,254 @@
+{
+  "target_markets": [
+    {
+      "market_id": "URBAN_COMMUTERS",
+      "label": "Urban Commuters",
+      "description": "Young to mid-career adults who live in dense cities and walk or take public transit daily. They want shoes that look good at the office and feel good on long commutes.",
+      "age_range": "24-40",
+      "life_stage": "Single or partnered, no kids or very young kids",
+      "location_type": "Urban, high-density city environment",
+      "income_level": "Medium to high disposable income",
+      "profession_types": [
+        "tech",
+        "finance",
+        "design",
+        "consulting",
+        "marketing"
+      ],
+      "activity_level": "Walks daily; light gym or classes 1-3 times per week",
+      "style_orientation": "Modern, clean, minimal aesthetics",
+      "shoe_needs_focus": [
+        "All-day comfort for walking and standing",
+        "Versatile style for office and social events",
+        "Durable soles and materials for city use"
+      ],
+      "notes_for_sampling": [
+        "Mix of comfort-first and style-forward personas",
+        "Some tech-analytical buyers, some fast-deciders"
+      ]
+    },
+    {
+      "market_id": "PERFORMANCE_RUNNERS",
+      "label": "Performance-Focused Runners",
+      "description": "Runners who care about pace, distance, and training plans. They read reviews and compare technical specs before buying.",
+      "age_range": "20-50",
+      "life_stage": "Mixed; single, partnered, or with kids",
+      "location_type": "Urban or suburban, with access to parks or tracks",
+      "income_level": "Medium",
+      "profession_types": [
+        "varied, with stable income"
+      ],
+      "activity_level": "Runs 2-6 times per week; may race occasionally",
+      "style_orientation": "Function-over-fashion; okay with bold designs",
+      "shoe_needs_focus": [
+        "Cushioning and support tuned to running style",
+        "Durability over high mileage",
+        "Lightweight and breathable uppers"
+      ],
+      "notes_for_sampling": [
+        "High detail tolerance, spec-oriented personas",
+        "Skeptical of fluffy marketing claims"
+      ]
+    },
+    {
+      "market_id": "BUDGET_FAMILY_SHOPPERS",
+      "label": "Budget-Conscious Family Shoppers",
+      "description": "Parents who buy shoes for themselves and their kids, trying to stretch budgets while avoiding obviously poor quality.",
+      "age_range": "28-50",
+      "life_stage": "Parents with school-age kids",
+      "location_type": "Suburban or smaller cities",
+      "income_level": "Low to medium",
+      "profession_types": [
+        "teaching",
+        "retail",
+        "healthcare support",
+        "office roles"
+      ],
+      "activity_level": "On feet a lot for work and errands; limited formal exercise time",
+      "style_orientation": "Practical and conservative; prefers neutral designs",
+      "shoe_needs_focus": [
+        "Affordability and value",
+        "Durability and easy cleaning",
+        "Comfort for long days"
+      ],
+      "notes_for_sampling": [
+        "Price-sensitive personas, wary of premium pitches",
+        "Strong barriers around risk and returns"
+      ]
+    },
+    {
+      "market_id": "SNEAKERHEAD_YOUTH",
+      "label": "Style-Driven Sneaker Enthusiasts",
+      "description": "Younger consumers who see sneakers as part of identity and social signaling. They track drops, trends, and collaborations.",
+      "age_range": "16-32",
+      "life_stage": "Students and early-career professionals",
+      "location_type": "Urban or college towns",
+      "income_level": "Low to medium, but willing to splurge on shoes",
+      "profession_types": [
+        "students",
+        "creative fields",
+        "service roles"
+      ],
+      "activity_level": "Moderate walking; some casual sports",
+      "style_orientation": "Bold, expressive, trend-aware",
+      "shoe_needs_focus": [
+        "Distinctive aesthetics and colorways",
+        "Brand story and hype factor",
+        "Comfort acceptable but not primary driver"
+      ],
+      "notes_for_sampling": [
+        "Emotion- and story-driven personas",
+        "Social proof and scarcity are key triggers"
+      ]
+    },
+    {
+      "market_id": "TRAIL_OUTDOOR_ADVENTURERS",
+      "label": "Trail and Outdoor Adventurers",
+      "description": "People who hike, trail run, and spend weekends outdoors. They care about traction, weather resistance, and durability.",
+      "age_range": "22-55",
+      "life_stage": "Mixed; singles, couples, small families",
+      "location_type": "Suburban or near outdoor access",
+      "income_level": "Medium",
+      "profession_types": [
+        "varied; may skew toward outdoorsy and flexible jobs"
+      ],
+      "activity_level": "Hikes or trail runs weekly or monthly",
+      "style_orientation": "Functional outdoor look; okay with rugged style",
+      "shoe_needs_focus": [
+        "Grip and traction on varied terrain",
+        "Weather resistance (rain, mud)",
+        "Stability and ankle support"
+      ],
+      "notes_for_sampling": [
+        "Detail-focused on function and materials",
+        "Reassurance around durability and safety"
+      ]
+    },
+    {
+      "market_id": "SERVICE_WORKERS_ON_FEET",
+      "label": "Service and Retail Workers on Their Feet",
+      "description": "People who stand or walk for most of their working day in hospitality, retail, or healthcare support roles.",
+      "age_range": "20-55",
+      "life_stage": "Mixed",
+      "location_type": "Urban and suburban",
+      "income_level": "Low to medium",
+      "profession_types": [
+        "retail",
+        "hospitality",
+        "food service",
+        "nursing assistants"
+      ],
+      "activity_level": "High step count at work; limited structured exercise",
+      "style_orientation": "Simple and professional; often constrained by dress codes",
+      "shoe_needs_focus": [
+        "Serious all-day comfort and cushioning",
+        "Slip resistance and safety features",
+        "Durability and easy cleaning"
+      ],
+      "notes_for_sampling": [
+        "Pain-avoidance and fatigue-avoidance personas",
+        "Very risk-averse about wasting money on bad shoes"
+      ]
+    },
+    {
+      "market_id": "FASHION_CITY_TASTEMAKERS",
+      "label": "Fashion-Forward City Tastemakers",
+      "description": "Urban consumers who follow fashion, care about curation, and pay attention to how shoes pair with outfits and social settings.",
+      "age_range": "22-38",
+      "life_stage": "Mostly single or child-free couples",
+      "location_type": "Trend-centered neighborhoods in large cities",
+      "income_level": "Medium to high",
+      "profession_types": [
+        "media",
+        "fashion",
+        "creative industries",
+        "social media",
+        "hospitality"
+      ],
+      "activity_level": "Moderate walking, nightlife, events",
+      "style_orientation": "Fashion-first; appreciates unique silhouettes and stories",
+      "shoe_needs_focus": [
+        "Distinctive, elevated aesthetics",
+        "Brand and story alignment with self-image",
+        "Comfort enough for event-length wear"
+      ],
+      "notes_for_sampling": [
+        "Story- and image-driven personas",
+        "Responsive to tone and visual vibe more than specs"
+      ]
+    },
+    {
+      "market_id": "ECO_MINDFUL_MINIMALISTS",
+      "label": "Eco-Mindful Minimalists",
+      "description": "Consumers who care about sustainability, owning fewer but better items, and ethical manufacturing.",
+      "age_range": "25-45",
+      "life_stage": "Mixed; often urban professionals or remote workers",
+      "location_type": "Urban or progressive mid-sized cities",
+      "income_level": "Medium",
+      "profession_types": [
+        "knowledge work",
+        "nonprofit",
+        "creative"
+      ],
+      "activity_level": "Walks frequently; may bike or do light running/yoga",
+      "style_orientation": "Simple, timeless aesthetics; neutral colors",
+      "shoe_needs_focus": [
+        "Sustainable materials and ethical production",
+        "Durability and repairability",
+        "Versatility across occasions"
+      ],
+      "notes_for_sampling": [
+        "High skepticism for greenwashing",
+        "Prefers calm, sincere, informative tone"
+      ]
+    },
+    {
+      "market_id": "MATURE_COMFORT_SEEKERS",
+      "label": "Mature Comfort-First Seekers",
+      "description": "Older adults who prioritize comfort, support, and stability over style trends.",
+      "age_range": "50-75",
+      "life_stage": "Empty nesters or retirees",
+      "location_type": "Suburban and small town",
+      "income_level": "Medium; some on fixed income",
+      "profession_types": [
+        "retired",
+        "part-time",
+        "light office roles"
+      ],
+      "activity_level": "Daily walking; some low-impact exercise",
+      "style_orientation": "Classic, understated designs",
+      "shoe_needs_focus": [
+        "Arch support and cushioning",
+        "Easy on/off and secure fit",
+        "Trustworthy brand and warranties"
+      ],
+      "notes_for_sampling": [
+        "Risk-averse, reassurance-heavy personas",
+        "Prefers clear, larger text and high clarity"
+      ]
+    },
+    {
+      "market_id": "FOOT_HEALTH_PRIORITY",
+      "label": "Foot-Health Priority Buyers",
+      "description": "Consumers with foot issues (plantar fasciitis, flat feet, past injuries) who see shoes as a health tool.",
+      "age_range": "30-70",
+      "life_stage": "Mixed",
+      "location_type": "Various",
+      "income_level": "Low to medium to high; willing to spend for relief",
+      "profession_types": [
+        "mixed; often jobs requiring standing or past sports history"
+      ],
+      "activity_level": "Walking and low-impact exercise; limited high-impact sports",
+      "style_orientation": "Function-over-fashion; appreciates if style is decent",
+      "shoe_needs_focus": [
+        "Serious support, cushioning, and stability",
+        "Evidence of foot-health focus (design, experts)",
+        "Clear sizing and fit information"
+      ],
+      "notes_for_sampling": [
+        "Very risk-averse personas",
+        "High need for proof, testimonials, or expert cues"
+      ]
+    }
+  ]
+}

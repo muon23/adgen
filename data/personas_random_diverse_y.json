@@ -1,0 +1,3538 @@
+{
+  "personas": [
+    {
+      "persona_id": "Y001",
+      "label": "Comfort-First Urban Minimalist",
+      "type": "random_diverse",
+      "demographic_context": "50s, lives in a large coastal city, works as a software engineer.",
+      "primary_motivation": "Maximize day-long comfort while keeping a clean, minimal look.",
+      "info_density_preference": "low",
+      "cognitive_style": "Fast-decider; makes choices from headline and 2-3 key points.",
+      "buying_barriers": [
+        "Overly long pages",
+        "Complex choices",
+        "Unclear sizing"
+      ],
+      "trust_triggers": [
+        "Simple layouts",
+        "Short bullet lists",
+        "Comfort-focused claims"
+      ],
+      "tone_voice_preference": "direct and efficient",
+      "emotional_drivers": [
+        "Simplicity",
+        "Feeling in control",
+        "Freedom from discomfort"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "SERVICE_WORKERS_ON_FEET",
+          "weight": 0.637
+        },
+        {
+          "market_id": "URBAN_COMMUTERS",
+          "weight": 0.363
+        }
+      ],
+      "prevalence": 1.0
+    },
+    {
+      "persona_id": "Y002",
+      "label": "Specs-Obsessed Runner",
+      "type": "random_diverse",
+      "demographic_context": "early 20s, lives in a small city with good transit, works as a software engineer.",
+      "primary_motivation": "Improve running performance through optimized shoe tech.",
+      "info_density_preference": "high",
+      "cognitive_style": "Analytical; compares data, materials, and reviews before deciding.",
+      "buying_barriers": [
+        "Vague marketing claims",
+        "Missing technical details"
+      ],
+      "trust_triggers": [
+        "Spec tables",
+        "Performance test results",
+        "Expert quotes"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Progress",
+        "Mastery",
+        "Hitting personal records"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "PERFORMANCE_RUNNERS",
+          "weight": 0.12
+        },
+        {
+          "market_id": "URBAN_COMMUTERS",
+          "weight": 0.88
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Y003",
+      "label": "Budget-Stretching Parent",
+      "type": "random_diverse",
+      "demographic_context": "40s, lives in a small city with good transit, works as a software engineer.",
+      "primary_motivation": "Get reliable shoes for the family without overspending.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Practical; skims for price, durability, and return policy.",
+      "buying_barriers": [
+        "High prices",
+        "No clear durability info",
+        "Unclear return terms"
+      ],
+      "trust_triggers": [
+        "Value messaging",
+        "Guarantees",
+        "User reviews"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Security",
+        "Providing for family",
+        "Avoiding waste"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "BUDGET_FAMILY_SHOPPERS",
+          "weight": 0.483
+        },
+        {
+          "market_id": "MATURE_COMFORT_SEEKERS",
+          "weight": 0.517
+        }
+      ],
+      "prevalence": 1.0
+    },
+    {
+      "persona_id": "Y004",
+      "label": "Hype-Driven Sneaker Fan",
+      "type": "random_diverse",
+      "demographic_context": "early 30s, lives in a large coastal city, works as a freelancer.",
+      "primary_motivation": "Express identity and stay ahead of sneaker trends.",
+      "info_density_preference": "low",
+      "cognitive_style": "Emotion-driven; reacts to story, visuals, and scarcity.",
+      "buying_barriers": [
+        "Boring design",
+        "No sense of uniqueness"
+      ],
+      "trust_triggers": [
+        "Collaborations",
+        "Limited drops",
+        "Social proof"
+      ],
+      "tone_voice_preference": "energetic and motivational",
+      "emotional_drivers": [
+        "Belonging",
+        "Status",
+        "Self-expression"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "SNEAKERHEAD_YOUTH",
+          "weight": 0.672
+        },
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 0.328
+        }
+      ],
+      "prevalence": 0.2
+    },
+    {
+      "persona_id": "Y005",
+      "label": "Trail Function Purist",
+      "type": "random_diverse",
+      "demographic_context": "late 20s, lives in a mid-sized inland city, works as a freelancer.",
+      "primary_motivation": "Stay safe and confident on rough outdoor terrain.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Detail-aware; checks traction, stability, and materials.",
+      "buying_barriers": [
+        "Unproven durability",
+        "Shallow outdoor claims"
+      ],
+      "trust_triggers": [
+        "Usage scenarios",
+        "Outdoor test stories",
+        "Materials details"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Confidence",
+        "Adventure",
+        "Self-reliance"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "PERFORMANCE_RUNNERS",
+          "weight": 0.514
+        },
+        {
+          "market_id": "TRAIL_OUTDOOR_ADVENTURERS",
+          "weight": 0.486
+        }
+      ],
+      "prevalence": 0.3
+    },
+    {
+      "persona_id": "Y006",
+      "label": "Pain-Avoidance Worker",
+      "type": "random_diverse",
+      "demographic_context": "early 30s, lives in a small city with good transit, works as a nurse.",
+      "primary_motivation": "Avoid foot and back pain during long shifts.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Experience-based; trusts stories of people like them.",
+      "buying_barriers": [
+        "Fear shoes will hurt after a few hours",
+        "No proof of comfort"
+      ],
+      "trust_triggers": [
+        "Testimonials from similar jobs",
+        "Comfort guarantees"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Relief",
+        "End-of-day comfort",
+        "Safety"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.576
+        },
+        {
+          "market_id": "SERVICE_WORKERS_ON_FEET",
+          "weight": 0.424
+        }
+      ],
+      "prevalence": 0.6
+    },
+    {
+      "persona_id": "Y007",
+      "label": "Eco-Skeptic Minimalist",
+      "type": "random_diverse",
+      "demographic_context": "late 30s, lives in a large coastal city, works as a marketing specialist.",
+      "primary_motivation": "Own fewer, better shoes that align with their values.",
+      "info_density_preference": "high",
+      "cognitive_style": "Critical; looks for specifics on materials and sourcing.",
+      "buying_barriers": [
+        "Greenwashing",
+        "Vague sustainability claims"
+      ],
+      "trust_triggers": [
+        "Concrete certifications",
+        "Supply chain transparency"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Integrity",
+        "Coherence with values",
+        "Longevity"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "ECO_MINDFUL_MINIMALISTS",
+          "weight": 0.71
+        },
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.29
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Y008",
+      "label": "Fashion-First Event-Goer",
+      "type": "random_diverse",
+      "demographic_context": "late 20s, lives in a large coastal city, works as a software engineer.",
+      "primary_motivation": "Look sharp at events while staying reasonably comfortable.",
+      "info_density_preference": "low",
+      "cognitive_style": "Visual and vibe-driven; cares about how shoes fit outfits.",
+      "buying_barriers": [
+        "Plain or generic designs",
+        "No style story"
+      ],
+      "trust_triggers": [
+        "Styled lookbooks",
+        "Outfit ideas",
+        "Brand story"
+      ],
+      "tone_voice_preference": "premium and elegant",
+      "emotional_drivers": [
+        "Confidence",
+        "Standing out",
+        "Admiration"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.3
+    },
+    {
+      "persona_id": "Y009",
+      "label": "Mature Stability Seeker",
+      "type": "random_diverse",
+      "demographic_context": "early 20s, lives in a mid-sized inland city, works as a freelancer.",
+      "primary_motivation": "Stay mobile and confident without worrying about falls or pain.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Careful; reads key sections and reassurance messages.",
+      "buying_barriers": [
+        "Fear of instability",
+        "Doubt about true support"
+      ],
+      "trust_triggers": [
+        "Foot-health focus",
+        "Clear support features",
+        "Simple language"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Security",
+        "Independence",
+        "Comfort"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "MATURE_COMFORT_SEEKERS",
+          "weight": 0.313
+        },
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.575
+        },
+        {
+          "market_id": "TRAIL_OUTDOOR_ADVENTURERS",
+          "weight": 0.112
+        }
+      ],
+      "prevalence": 0.6
+    },
+    {
+      "persona_id": "Y010",
+      "label": "Long-Read Researcher",
+      "type": "random_diverse",
+      "demographic_context": "early 30s, lives in a mid-sized inland city, works as a teacher.",
+      "primary_motivation": "Understand every aspect before committing to a purchase.",
+      "info_density_preference": "high",
+      "cognitive_style": "Research-heavy; reads long pages and comparisons.",
+      "buying_barriers": [
+        "Thin or shallow information",
+        "No comparisons"
+      ],
+      "trust_triggers": [
+        "In-depth FAQs",
+        "Comparisons vs alternatives"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Certainty",
+        "Avoiding regret",
+        "Intellectual satisfaction"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "ECO_MINDFUL_MINIMALISTS",
+          "weight": 0.404
+        },
+        {
+          "market_id": "PERFORMANCE_RUNNERS",
+          "weight": 0.113
+        },
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.483
+        }
+      ],
+      "prevalence": 0.2
+    },
+    {
+      "persona_id": "Y011",
+      "label": "Comfort-First Urban Minimalist",
+      "type": "random_diverse",
+      "demographic_context": "late 20s, lives in a college town, works as a graphic designer.",
+      "primary_motivation": "Maximize day-long comfort while keeping a clean, minimal look.",
+      "info_density_preference": "low",
+      "cognitive_style": "Fast-decider; makes choices from headline and 2-3 key points.",
+      "buying_barriers": [
+        "Overly long pages",
+        "Complex choices",
+        "Unclear sizing"
+      ],
+      "trust_triggers": [
+        "Simple layouts",
+        "Short bullet lists",
+        "Comfort-focused claims"
+      ],
+      "tone_voice_preference": "direct and efficient",
+      "emotional_drivers": [
+        "Simplicity",
+        "Feeling in control",
+        "Freedom from discomfort"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "SERVICE_WORKERS_ON_FEET",
+          "weight": 0.167
+        },
+        {
+          "market_id": "MATURE_COMFORT_SEEKERS",
+          "weight": 0.247
+        },
+        {
+          "market_id": "URBAN_COMMUTERS",
+          "weight": 0.586
+        }
+      ],
+      "prevalence": 1.0
+    },
+    {
+      "persona_id": "Y012",
+      "label": "Specs-Obsessed Runner",
+      "type": "random_diverse",
+      "demographic_context": "early 20s, lives in a mid-sized inland city, works as a freelancer.",
+      "primary_motivation": "Improve running performance through optimized shoe tech.",
+      "info_density_preference": "high",
+      "cognitive_style": "Analytical; compares data, materials, and reviews before deciding.",
+      "buying_barriers": [
+        "Vague marketing claims",
+        "Missing technical details"
+      ],
+      "trust_triggers": [
+        "Spec tables",
+        "Performance test results",
+        "Expert quotes"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Progress",
+        "Mastery",
+        "Hitting personal records"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "PERFORMANCE_RUNNERS",
+          "weight": 0.858
+        },
+        {
+          "market_id": "SERVICE_WORKERS_ON_FEET",
+          "weight": 0.142
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Y013",
+      "label": "Budget-Stretching Parent",
+      "type": "random_diverse",
+      "demographic_context": "40s, lives in a suburban area near a city, works as a retail associate.",
+      "primary_motivation": "Get reliable shoes for the family without overspending.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Practical; skims for price, durability, and return policy.",
+      "buying_barriers": [
+        "High prices",
+        "No clear durability info",
+        "Unclear return terms"
+      ],
+      "trust_triggers": [
+        "Value messaging",
+        "Guarantees",
+        "User reviews"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Security",
+        "Providing for family",
+        "Avoiding waste"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "BUDGET_FAMILY_SHOPPERS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 1.0
+    },
+    {
+      "persona_id": "Y014",
+      "label": "Hype-Driven Sneaker Fan",
+      "type": "random_diverse",
+      "demographic_context": "50s, lives in a college town, works as a retail associate.",
+      "primary_motivation": "Express identity and stay ahead of sneaker trends.",
+      "info_density_preference": "low",
+      "cognitive_style": "Emotion-driven; reacts to story, visuals, and scarcity.",
+      "buying_barriers": [
+        "Boring design",
+        "No sense of uniqueness"
+      ],
+      "trust_triggers": [
+        "Collaborations",
+        "Limited drops",
+        "Social proof"
+      ],
+      "tone_voice_preference": "energetic and motivational",
+      "emotional_drivers": [
+        "Belonging",
+        "Status",
+        "Self-expression"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "SNEAKERHEAD_YOUTH",
+          "weight": 0.58
+        },
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 0.42
+        }
+      ],
+      "prevalence": 0.2
+    },
+    {
+      "persona_id": "Y015",
+      "label": "Trail Function Purist",
+      "type": "random_diverse",
+      "demographic_context": "50s, lives in a small city with good transit, works as a graphic designer.",
+      "primary_motivation": "Stay safe and confident on rough outdoor terrain.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Detail-aware; checks traction, stability, and materials.",
+      "buying_barriers": [
+        "Unproven durability",
+        "Shallow outdoor claims"
+      ],
+      "trust_triggers": [
+        "Usage scenarios",
+        "Outdoor test stories",
+        "Materials details"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Confidence",
+        "Adventure",
+        "Self-reliance"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "TRAIL_OUTDOOR_ADVENTURERS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.3
+    },
+    {
+      "persona_id": "Y016",
+      "label": "Pain-Avoidance Worker",
+      "type": "random_diverse",
+      "demographic_context": "late 20s, lives in a mid-sized inland city, works as a marketing specialist.",
+      "primary_motivation": "Avoid foot and back pain during long shifts.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Experience-based; trusts stories of people like them.",
+      "buying_barriers": [
+        "Fear shoes will hurt after a few hours",
+        "No proof of comfort"
+      ],
+      "trust_triggers": [
+        "Testimonials from similar jobs",
+        "Comfort guarantees"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Relief",
+        "End-of-day comfort",
+        "Safety"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "URBAN_COMMUTERS",
+          "weight": 0.734
+        },
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.13
+        },
+        {
+          "market_id": "SERVICE_WORKERS_ON_FEET",
+          "weight": 0.136
+        }
+      ],
+      "prevalence": 0.6
+    },
+    {
+      "persona_id": "Y017",
+      "label": "Eco-Skeptic Minimalist",
+      "type": "random_diverse",
+      "demographic_context": "50s, lives in a college town, works as a marketing specialist.",
+      "primary_motivation": "Own fewer, better shoes that align with their values.",
+      "info_density_preference": "high",
+      "cognitive_style": "Critical; looks for specifics on materials and sourcing.",
+      "buying_barriers": [
+        "Greenwashing",
+        "Vague sustainability claims"
+      ],
+      "trust_triggers": [
+        "Concrete certifications",
+        "Supply chain transparency"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Integrity",
+        "Coherence with values",
+        "Longevity"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "ECO_MINDFUL_MINIMALISTS",
+          "weight": 0.56
+        },
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 0.44
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Y018",
+      "label": "Fashion-First Event-Goer",
+      "type": "random_diverse",
+      "demographic_context": "early 30s, lives in a small city with good transit, works as a freelancer.",
+      "primary_motivation": "Look sharp at events while staying reasonably comfortable.",
+      "info_density_preference": "low",
+      "cognitive_style": "Visual and vibe-driven; cares about how shoes fit outfits.",
+      "buying_barriers": [
+        "Plain or generic designs",
+        "No style story"
+      ],
+      "trust_triggers": [
+        "Styled lookbooks",
+        "Outfit ideas",
+        "Brand story"
+      ],
+      "tone_voice_preference": "premium and elegant",
+      "emotional_drivers": [
+        "Confidence",
+        "Standing out",
+        "Admiration"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.3
+    },
+    {
+      "persona_id": "Y019",
+      "label": "Mature Stability Seeker",
+      "type": "random_diverse",
+      "demographic_context": "early 20s, lives in a small city with good transit, works as a freelancer.",
+      "primary_motivation": "Stay mobile and confident without worrying about falls or pain.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Careful; reads key sections and reassurance messages.",
+      "buying_barriers": [
+        "Fear of instability",
+        "Doubt about true support"
+      ],
+      "trust_triggers": [
+        "Foot-health focus",
+        "Clear support features",
+        "Simple language"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Security",
+        "Independence",
+        "Comfort"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "MATURE_COMFORT_SEEKERS",
+          "weight": 0.112
+        },
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.435
+        },
+        {
+          "market_id": "SERVICE_WORKERS_ON_FEET",
+          "weight": 0.454
+        }
+      ],
+      "prevalence": 0.6
+    },
+    {
+      "persona_id": "Y020",
+      "label": "Long-Read Researcher",
+      "type": "random_diverse",
+      "demographic_context": "50s, lives in a suburban area near a city, works as a marketing specialist.",
+      "primary_motivation": "Understand every aspect before committing to a purchase.",
+      "info_density_preference": "high",
+      "cognitive_style": "Research-heavy; reads long pages and comparisons.",
+      "buying_barriers": [
+        "Thin or shallow information",
+        "No comparisons"
+      ],
+      "trust_triggers": [
+        "In-depth FAQs",
+        "Comparisons vs alternatives"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Certainty",
+        "Avoiding regret",
+        "Intellectual satisfaction"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "ECO_MINDFUL_MINIMALISTS",
+          "weight": 0.41
+        },
+        {
+          "market_id": "PERFORMANCE_RUNNERS",
+          "weight": 0.086
+        },
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.505
+        }
+      ],
+      "prevalence": 0.2
+    },
+    {
+      "persona_id": "Y021",
+      "label": "Comfort-First Urban Minimalist",
+      "type": "random_diverse",
+      "demographic_context": "50s, lives in a small city with good transit, works as a marketing specialist.",
+      "primary_motivation": "Maximize day-long comfort while keeping a clean, minimal look.",
+      "info_density_preference": "low",
+      "cognitive_style": "Fast-decider; makes choices from headline and 2-3 key points.",
+      "buying_barriers": [
+        "Overly long pages",
+        "Complex choices",
+        "Unclear sizing"
+      ],
+      "trust_triggers": [
+        "Simple layouts",
+        "Short bullet lists",
+        "Comfort-focused claims"
+      ],
+      "tone_voice_preference": "direct and efficient",
+      "emotional_drivers": [
+        "Simplicity",
+        "Feeling in control",
+        "Freedom from discomfort"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "SERVICE_WORKERS_ON_FEET",
+          "weight": 0.586
+        },
+        {
+          "market_id": "URBAN_COMMUTERS",
+          "weight": 0.414
+        }
+      ],
+      "prevalence": 1.0
+    },
+    {
+      "persona_id": "Y022",
+      "label": "Specs-Obsessed Runner",
+      "type": "random_diverse",
+      "demographic_context": "40s, lives in a large coastal city, works as a marketing specialist.",
+      "primary_motivation": "Improve running performance through optimized shoe tech.",
+      "info_density_preference": "high",
+      "cognitive_style": "Analytical; compares data, materials, and reviews before deciding.",
+      "buying_barriers": [
+        "Vague marketing claims",
+        "Missing technical details"
+      ],
+      "trust_triggers": [
+        "Spec tables",
+        "Performance test results",
+        "Expert quotes"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Progress",
+        "Mastery",
+        "Hitting personal records"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "PERFORMANCE_RUNNERS",
+          "weight": 0.236
+        },
+        {
+          "market_id": "URBAN_COMMUTERS",
+          "weight": 0.764
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Y023",
+      "label": "Budget-Stretching Parent",
+      "type": "random_diverse",
+      "demographic_context": "early 30s, lives in a mid-sized inland city, works as a software engineer.",
+      "primary_motivation": "Get reliable shoes for the family without overspending.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Practical; skims for price, durability, and return policy.",
+      "buying_barriers": [
+        "High prices",
+        "No clear durability info",
+        "Unclear return terms"
+      ],
+      "trust_triggers": [
+        "Value messaging",
+        "Guarantees",
+        "User reviews"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Security",
+        "Providing for family",
+        "Avoiding waste"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "BUDGET_FAMILY_SHOPPERS",
+          "weight": 0.917
+        },
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.083
+        }
+      ],
+      "prevalence": 1.0
+    },
+    {
+      "persona_id": "Y024",
+      "label": "Hype-Driven Sneaker Fan",
+      "type": "random_diverse",
+      "demographic_context": "late 30s, lives in a large coastal city, works as a freelancer.",
+      "primary_motivation": "Express identity and stay ahead of sneaker trends.",
+      "info_density_preference": "low",
+      "cognitive_style": "Emotion-driven; reacts to story, visuals, and scarcity.",
+      "buying_barriers": [
+        "Boring design",
+        "No sense of uniqueness"
+      ],
+      "trust_triggers": [
+        "Collaborations",
+        "Limited drops",
+        "Social proof"
+      ],
+      "tone_voice_preference": "energetic and motivational",
+      "emotional_drivers": [
+        "Belonging",
+        "Status",
+        "Self-expression"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "BUDGET_FAMILY_SHOPPERS",
+          "weight": 0.111
+        },
+        {
+          "market_id": "SNEAKERHEAD_YOUTH",
+          "weight": 0.412
+        },
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 0.477
+        }
+      ],
+      "prevalence": 0.2
+    },
+    {
+      "persona_id": "Y025",
+      "label": "Trail Function Purist",
+      "type": "random_diverse",
+      "demographic_context": "early 30s, lives in a small city with good transit, works as a freelancer.",
+      "primary_motivation": "Stay safe and confident on rough outdoor terrain.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Detail-aware; checks traction, stability, and materials.",
+      "buying_barriers": [
+        "Unproven durability",
+        "Shallow outdoor claims"
+      ],
+      "trust_triggers": [
+        "Usage scenarios",
+        "Outdoor test stories",
+        "Materials details"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Confidence",
+        "Adventure",
+        "Self-reliance"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "TRAIL_OUTDOOR_ADVENTURERS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.3
+    },
+    {
+      "persona_id": "Y026",
+      "label": "Pain-Avoidance Worker",
+      "type": "random_diverse",
+      "demographic_context": "40s, lives in a mid-sized inland city, works as a teacher.",
+      "primary_motivation": "Avoid foot and back pain during long shifts.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Experience-based; trusts stories of people like them.",
+      "buying_barriers": [
+        "Fear shoes will hurt after a few hours",
+        "No proof of comfort"
+      ],
+      "trust_triggers": [
+        "Testimonials from similar jobs",
+        "Comfort guarantees"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Relief",
+        "End-of-day comfort",
+        "Safety"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.458
+        },
+        {
+          "market_id": "SERVICE_WORKERS_ON_FEET",
+          "weight": 0.542
+        }
+      ],
+      "prevalence": 0.6
+    },
+    {
+      "persona_id": "Y027",
+      "label": "Eco-Skeptic Minimalist",
+      "type": "random_diverse",
+      "demographic_context": "early 20s, lives in a mid-sized inland city, works as a retail associate.",
+      "primary_motivation": "Own fewer, better shoes that align with their values.",
+      "info_density_preference": "high",
+      "cognitive_style": "Critical; looks for specifics on materials and sourcing.",
+      "buying_barriers": [
+        "Greenwashing",
+        "Vague sustainability claims"
+      ],
+      "trust_triggers": [
+        "Concrete certifications",
+        "Supply chain transparency"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Integrity",
+        "Coherence with values",
+        "Longevity"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "ECO_MINDFUL_MINIMALISTS",
+          "weight": 0.719
+        },
+        {
+          "market_id": "URBAN_COMMUTERS",
+          "weight": 0.281
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Y028",
+      "label": "Fashion-First Event-Goer",
+      "type": "random_diverse",
+      "demographic_context": "late 20s, lives in a large coastal city, works as a software engineer.",
+      "primary_motivation": "Look sharp at events while staying reasonably comfortable.",
+      "info_density_preference": "low",
+      "cognitive_style": "Visual and vibe-driven; cares about how shoes fit outfits.",
+      "buying_barriers": [
+        "Plain or generic designs",
+        "No style story"
+      ],
+      "trust_triggers": [
+        "Styled lookbooks",
+        "Outfit ideas",
+        "Brand story"
+      ],
+      "tone_voice_preference": "premium and elegant",
+      "emotional_drivers": [
+        "Confidence",
+        "Standing out",
+        "Admiration"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.3
+    },
+    {
+      "persona_id": "Y029",
+      "label": "Mature Stability Seeker",
+      "type": "random_diverse",
+      "demographic_context": "early 20s, lives in a large coastal city, works as a freelancer.",
+      "primary_motivation": "Stay mobile and confident without worrying about falls or pain.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Careful; reads key sections and reassurance messages.",
+      "buying_barriers": [
+        "Fear of instability",
+        "Doubt about true support"
+      ],
+      "trust_triggers": [
+        "Foot-health focus",
+        "Clear support features",
+        "Simple language"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Security",
+        "Independence",
+        "Comfort"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "MATURE_COMFORT_SEEKERS",
+          "weight": 0.262
+        },
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.738
+        }
+      ],
+      "prevalence": 0.6
+    },
+    {
+      "persona_id": "Y030",
+      "label": "Long-Read Researcher",
+      "type": "random_diverse",
+      "demographic_context": "late 20s, lives in a small city with good transit, works as a retail associate.",
+      "primary_motivation": "Understand every aspect before committing to a purchase.",
+      "info_density_preference": "high",
+      "cognitive_style": "Research-heavy; reads long pages and comparisons.",
+      "buying_barriers": [
+        "Thin or shallow information",
+        "No comparisons"
+      ],
+      "trust_triggers": [
+        "In-depth FAQs",
+        "Comparisons vs alternatives"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Certainty",
+        "Avoiding regret",
+        "Intellectual satisfaction"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "ECO_MINDFUL_MINIMALISTS",
+          "weight": 0.519
+        },
+        {
+          "market_id": "PERFORMANCE_RUNNERS",
+          "weight": 0.339
+        },
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.143
+        }
+      ],
+      "prevalence": 0.2
+    },
+    {
+      "persona_id": "Y031",
+      "label": "Comfort-First Urban Minimalist",
+      "type": "random_diverse",
+      "demographic_context": "late 30s, lives in a college town, works as a retail associate.",
+      "primary_motivation": "Maximize day-long comfort while keeping a clean, minimal look.",
+      "info_density_preference": "low",
+      "cognitive_style": "Fast-decider; makes choices from headline and 2-3 key points.",
+      "buying_barriers": [
+        "Overly long pages",
+        "Complex choices",
+        "Unclear sizing"
+      ],
+      "trust_triggers": [
+        "Simple layouts",
+        "Short bullet lists",
+        "Comfort-focused claims"
+      ],
+      "tone_voice_preference": "direct and efficient",
+      "emotional_drivers": [
+        "Simplicity",
+        "Feeling in control",
+        "Freedom from discomfort"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "SERVICE_WORKERS_ON_FEET",
+          "weight": 0.217
+        },
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 0.252
+        },
+        {
+          "market_id": "URBAN_COMMUTERS",
+          "weight": 0.53
+        }
+      ],
+      "prevalence": 1.0
+    },
+    {
+      "persona_id": "Y032",
+      "label": "Specs-Obsessed Runner",
+      "type": "random_diverse",
+      "demographic_context": "early 20s, lives in a large coastal city, works as a software engineer.",
+      "primary_motivation": "Improve running performance through optimized shoe tech.",
+      "info_density_preference": "high",
+      "cognitive_style": "Analytical; compares data, materials, and reviews before deciding.",
+      "buying_barriers": [
+        "Vague marketing claims",
+        "Missing technical details"
+      ],
+      "trust_triggers": [
+        "Spec tables",
+        "Performance test results",
+        "Expert quotes"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Progress",
+        "Mastery",
+        "Hitting personal records"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "PERFORMANCE_RUNNERS",
+          "weight": 0.88
+        },
+        {
+          "market_id": "SERVICE_WORKERS_ON_FEET",
+          "weight": 0.12
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Y033",
+      "label": "Budget-Stretching Parent",
+      "type": "random_diverse",
+      "demographic_context": "late 20s, lives in a mid-sized inland city, works as a marketing specialist.",
+      "primary_motivation": "Get reliable shoes for the family without overspending.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Practical; skims for price, durability, and return policy.",
+      "buying_barriers": [
+        "High prices",
+        "No clear durability info",
+        "Unclear return terms"
+      ],
+      "trust_triggers": [
+        "Value messaging",
+        "Guarantees",
+        "User reviews"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Security",
+        "Providing for family",
+        "Avoiding waste"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "BUDGET_FAMILY_SHOPPERS",
+          "weight": 0.284
+        },
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 0.716
+        }
+      ],
+      "prevalence": 1.0
+    },
+    {
+      "persona_id": "Y034",
+      "label": "Hype-Driven Sneaker Fan",
+      "type": "random_diverse",
+      "demographic_context": "early 20s, lives in a college town, works as a freelancer.",
+      "primary_motivation": "Express identity and stay ahead of sneaker trends.",
+      "info_density_preference": "low",
+      "cognitive_style": "Emotion-driven; reacts to story, visuals, and scarcity.",
+      "buying_barriers": [
+        "Boring design",
+        "No sense of uniqueness"
+      ],
+      "trust_triggers": [
+        "Collaborations",
+        "Limited drops",
+        "Social proof"
+      ],
+      "tone_voice_preference": "energetic and motivational",
+      "emotional_drivers": [
+        "Belonging",
+        "Status",
+        "Self-expression"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "SNEAKERHEAD_YOUTH",
+          "weight": 0.916
+        },
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 0.084
+        }
+      ],
+      "prevalence": 0.2
+    },
+    {
+      "persona_id": "Y035",
+      "label": "Trail Function Purist",
+      "type": "random_diverse",
+      "demographic_context": "40s, lives in a large coastal city, works as a software engineer.",
+      "primary_motivation": "Stay safe and confident on rough outdoor terrain.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Detail-aware; checks traction, stability, and materials.",
+      "buying_barriers": [
+        "Unproven durability",
+        "Shallow outdoor claims"
+      ],
+      "trust_triggers": [
+        "Usage scenarios",
+        "Outdoor test stories",
+        "Materials details"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Confidence",
+        "Adventure",
+        "Self-reliance"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "TRAIL_OUTDOOR_ADVENTURERS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.3
+    },
+    {
+      "persona_id": "Y036",
+      "label": "Pain-Avoidance Worker",
+      "type": "random_diverse",
+      "demographic_context": "late 20s, lives in a college town, works as a graphic designer.",
+      "primary_motivation": "Avoid foot and back pain during long shifts.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Experience-based; trusts stories of people like them.",
+      "buying_barriers": [
+        "Fear shoes will hurt after a few hours",
+        "No proof of comfort"
+      ],
+      "trust_triggers": [
+        "Testimonials from similar jobs",
+        "Comfort guarantees"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Relief",
+        "End-of-day comfort",
+        "Safety"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 0.844
+        },
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.154
+        },
+        {
+          "market_id": "SERVICE_WORKERS_ON_FEET",
+          "weight": 0.002
+        }
+      ],
+      "prevalence": 0.6
+    },
+    {
+      "persona_id": "Y037",
+      "label": "Eco-Skeptic Minimalist",
+      "type": "random_diverse",
+      "demographic_context": "late 30s, lives in a suburban area near a city, works as a freelancer.",
+      "primary_motivation": "Own fewer, better shoes that align with their values.",
+      "info_density_preference": "high",
+      "cognitive_style": "Critical; looks for specifics on materials and sourcing.",
+      "buying_barriers": [
+        "Greenwashing",
+        "Vague sustainability claims"
+      ],
+      "trust_triggers": [
+        "Concrete certifications",
+        "Supply chain transparency"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Integrity",
+        "Coherence with values",
+        "Longevity"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "ECO_MINDFUL_MINIMALISTS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Y038",
+      "label": "Fashion-First Event-Goer",
+      "type": "random_diverse",
+      "demographic_context": "50s, lives in a small city with good transit, works as a teacher.",
+      "primary_motivation": "Look sharp at events while staying reasonably comfortable.",
+      "info_density_preference": "low",
+      "cognitive_style": "Visual and vibe-driven; cares about how shoes fit outfits.",
+      "buying_barriers": [
+        "Plain or generic designs",
+        "No style story"
+      ],
+      "trust_triggers": [
+        "Styled lookbooks",
+        "Outfit ideas",
+        "Brand story"
+      ],
+      "tone_voice_preference": "premium and elegant",
+      "emotional_drivers": [
+        "Confidence",
+        "Standing out",
+        "Admiration"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.3
+    },
+    {
+      "persona_id": "Y039",
+      "label": "Mature Stability Seeker",
+      "type": "random_diverse",
+      "demographic_context": "early 30s, lives in a mid-sized inland city, works as a software engineer.",
+      "primary_motivation": "Stay mobile and confident without worrying about falls or pain.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Careful; reads key sections and reassurance messages.",
+      "buying_barriers": [
+        "Fear of instability",
+        "Doubt about true support"
+      ],
+      "trust_triggers": [
+        "Foot-health focus",
+        "Clear support features",
+        "Simple language"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Security",
+        "Independence",
+        "Comfort"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "MATURE_COMFORT_SEEKERS",
+          "weight": 0.163
+        },
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.837
+        }
+      ],
+      "prevalence": 0.6
+    },
+    {
+      "persona_id": "Y040",
+      "label": "Long-Read Researcher",
+      "type": "random_diverse",
+      "demographic_context": "early 20s, lives in a small city with good transit, works as a graphic designer.",
+      "primary_motivation": "Understand every aspect before committing to a purchase.",
+      "info_density_preference": "high",
+      "cognitive_style": "Research-heavy; reads long pages and comparisons.",
+      "buying_barriers": [
+        "Thin or shallow information",
+        "No comparisons"
+      ],
+      "trust_triggers": [
+        "In-depth FAQs",
+        "Comparisons vs alternatives"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Certainty",
+        "Avoiding regret",
+        "Intellectual satisfaction"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "ECO_MINDFUL_MINIMALISTS",
+          "weight": 0.114
+        },
+        {
+          "market_id": "MATURE_COMFORT_SEEKERS",
+          "weight": 0.694
+        },
+        {
+          "market_id": "PERFORMANCE_RUNNERS",
+          "weight": 0.058
+        },
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.134
+        }
+      ],
+      "prevalence": 0.2
+    },
+    {
+      "persona_id": "Y041",
+      "label": "Comfort-First Urban Minimalist",
+      "type": "random_diverse",
+      "demographic_context": "40s, lives in a large coastal city, works as a teacher.",
+      "primary_motivation": "Maximize day-long comfort while keeping a clean, minimal look.",
+      "info_density_preference": "low",
+      "cognitive_style": "Fast-decider; makes choices from headline and 2-3 key points.",
+      "buying_barriers": [
+        "Overly long pages",
+        "Complex choices",
+        "Unclear sizing"
+      ],
+      "trust_triggers": [
+        "Simple layouts",
+        "Short bullet lists",
+        "Comfort-focused claims"
+      ],
+      "tone_voice_preference": "direct and efficient",
+      "emotional_drivers": [
+        "Simplicity",
+        "Feeling in control",
+        "Freedom from discomfort"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "SERVICE_WORKERS_ON_FEET",
+          "weight": 0.3
+        },
+        {
+          "market_id": "URBAN_COMMUTERS",
+          "weight": 0.7
+        }
+      ],
+      "prevalence": 1.0
+    },
+    {
+      "persona_id": "Y042",
+      "label": "Specs-Obsessed Runner",
+      "type": "random_diverse",
+      "demographic_context": "40s, lives in a mid-sized inland city, works as a marketing specialist.",
+      "primary_motivation": "Improve running performance through optimized shoe tech.",
+      "info_density_preference": "high",
+      "cognitive_style": "Analytical; compares data, materials, and reviews before deciding.",
+      "buying_barriers": [
+        "Vague marketing claims",
+        "Missing technical details"
+      ],
+      "trust_triggers": [
+        "Spec tables",
+        "Performance test results",
+        "Expert quotes"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Progress",
+        "Mastery",
+        "Hitting personal records"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "PERFORMANCE_RUNNERS",
+          "weight": 0.111
+        },
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.889
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Y043",
+      "label": "Budget-Stretching Parent",
+      "type": "random_diverse",
+      "demographic_context": "40s, lives in a small city with good transit, works as a nurse.",
+      "primary_motivation": "Get reliable shoes for the family without overspending.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Practical; skims for price, durability, and return policy.",
+      "buying_barriers": [
+        "High prices",
+        "No clear durability info",
+        "Unclear return terms"
+      ],
+      "trust_triggers": [
+        "Value messaging",
+        "Guarantees",
+        "User reviews"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Security",
+        "Providing for family",
+        "Avoiding waste"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "BUDGET_FAMILY_SHOPPERS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 1.0
+    },
+    {
+      "persona_id": "Y044",
+      "label": "Hype-Driven Sneaker Fan",
+      "type": "random_diverse",
+      "demographic_context": "50s, lives in a suburban area near a city, works as a retail associate.",
+      "primary_motivation": "Express identity and stay ahead of sneaker trends.",
+      "info_density_preference": "low",
+      "cognitive_style": "Emotion-driven; reacts to story, visuals, and scarcity.",
+      "buying_barriers": [
+        "Boring design",
+        "No sense of uniqueness"
+      ],
+      "trust_triggers": [
+        "Collaborations",
+        "Limited drops",
+        "Social proof"
+      ],
+      "tone_voice_preference": "energetic and motivational",
+      "emotional_drivers": [
+        "Belonging",
+        "Status",
+        "Self-expression"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "BUDGET_FAMILY_SHOPPERS",
+          "weight": 0.522
+        },
+        {
+          "market_id": "SNEAKERHEAD_YOUTH",
+          "weight": 0.233
+        },
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 0.246
+        }
+      ],
+      "prevalence": 0.2
+    },
+    {
+      "persona_id": "Y045",
+      "label": "Trail Function Purist",
+      "type": "random_diverse",
+      "demographic_context": "early 20s, lives in a large coastal city, works as a graphic designer.",
+      "primary_motivation": "Stay safe and confident on rough outdoor terrain.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Detail-aware; checks traction, stability, and materials.",
+      "buying_barriers": [
+        "Unproven durability",
+        "Shallow outdoor claims"
+      ],
+      "trust_triggers": [
+        "Usage scenarios",
+        "Outdoor test stories",
+        "Materials details"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Confidence",
+        "Adventure",
+        "Self-reliance"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "TRAIL_OUTDOOR_ADVENTURERS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.3
+    },
+    {
+      "persona_id": "Y046",
+      "label": "Pain-Avoidance Worker",
+      "type": "random_diverse",
+      "demographic_context": "early 20s, lives in a large coastal city, works as a marketing specialist.",
+      "primary_motivation": "Avoid foot and back pain during long shifts.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Experience-based; trusts stories of people like them.",
+      "buying_barriers": [
+        "Fear shoes will hurt after a few hours",
+        "No proof of comfort"
+      ],
+      "trust_triggers": [
+        "Testimonials from similar jobs",
+        "Comfort guarantees"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Relief",
+        "End-of-day comfort",
+        "Safety"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "TRAIL_OUTDOOR_ADVENTURERS",
+          "weight": 0.241
+        },
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.634
+        },
+        {
+          "market_id": "SERVICE_WORKERS_ON_FEET",
+          "weight": 0.125
+        }
+      ],
+      "prevalence": 0.6
+    },
+    {
+      "persona_id": "Y047",
+      "label": "Eco-Skeptic Minimalist",
+      "type": "random_diverse",
+      "demographic_context": "late 20s, lives in a suburban area near a city, works as a nurse.",
+      "primary_motivation": "Own fewer, better shoes that align with their values.",
+      "info_density_preference": "high",
+      "cognitive_style": "Critical; looks for specifics on materials and sourcing.",
+      "buying_barriers": [
+        "Greenwashing",
+        "Vague sustainability claims"
+      ],
+      "trust_triggers": [
+        "Concrete certifications",
+        "Supply chain transparency"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Integrity",
+        "Coherence with values",
+        "Longevity"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "ECO_MINDFUL_MINIMALISTS",
+          "weight": 0.535
+        },
+        {
+          "market_id": "MATURE_COMFORT_SEEKERS",
+          "weight": 0.465
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Y048",
+      "label": "Fashion-First Event-Goer",
+      "type": "random_diverse",
+      "demographic_context": "50s, lives in a small city with good transit, works as a software engineer.",
+      "primary_motivation": "Look sharp at events while staying reasonably comfortable.",
+      "info_density_preference": "low",
+      "cognitive_style": "Visual and vibe-driven; cares about how shoes fit outfits.",
+      "buying_barriers": [
+        "Plain or generic designs",
+        "No style story"
+      ],
+      "trust_triggers": [
+        "Styled lookbooks",
+        "Outfit ideas",
+        "Brand story"
+      ],
+      "tone_voice_preference": "premium and elegant",
+      "emotional_drivers": [
+        "Confidence",
+        "Standing out",
+        "Admiration"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.3
+    },
+    {
+      "persona_id": "Y049",
+      "label": "Mature Stability Seeker",
+      "type": "random_diverse",
+      "demographic_context": "50s, lives in a large coastal city, works as a retail associate.",
+      "primary_motivation": "Stay mobile and confident without worrying about falls or pain.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Careful; reads key sections and reassurance messages.",
+      "buying_barriers": [
+        "Fear of instability",
+        "Doubt about true support"
+      ],
+      "trust_triggers": [
+        "Foot-health focus",
+        "Clear support features",
+        "Simple language"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Security",
+        "Independence",
+        "Comfort"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "MATURE_COMFORT_SEEKERS",
+          "weight": 0.629
+        },
+        {
+          "market_id": "PERFORMANCE_RUNNERS",
+          "weight": 0.132
+        },
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.239
+        }
+      ],
+      "prevalence": 0.6
+    },
+    {
+      "persona_id": "Y050",
+      "label": "Long-Read Researcher",
+      "type": "random_diverse",
+      "demographic_context": "late 20s, lives in a suburban area near a city, works as a retail associate.",
+      "primary_motivation": "Understand every aspect before committing to a purchase.",
+      "info_density_preference": "high",
+      "cognitive_style": "Research-heavy; reads long pages and comparisons.",
+      "buying_barriers": [
+        "Thin or shallow information",
+        "No comparisons"
+      ],
+      "trust_triggers": [
+        "In-depth FAQs",
+        "Comparisons vs alternatives"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Certainty",
+        "Avoiding regret",
+        "Intellectual satisfaction"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "ECO_MINDFUL_MINIMALISTS",
+          "weight": 0.53
+        },
+        {
+          "market_id": "PERFORMANCE_RUNNERS",
+          "weight": 0.314
+        },
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.156
+        }
+      ],
+      "prevalence": 0.2
+    },
+    {
+      "persona_id": "Y051",
+      "label": "Comfort-First Urban Minimalist",
+      "type": "random_diverse",
+      "demographic_context": "early 20s, lives in a large coastal city, works as a teacher.",
+      "primary_motivation": "Maximize day-long comfort while keeping a clean, minimal look.",
+      "info_density_preference": "low",
+      "cognitive_style": "Fast-decider; makes choices from headline and 2-3 key points.",
+      "buying_barriers": [
+        "Overly long pages",
+        "Complex choices",
+        "Unclear sizing"
+      ],
+      "trust_triggers": [
+        "Simple layouts",
+        "Short bullet lists",
+        "Comfort-focused claims"
+      ],
+      "tone_voice_preference": "direct and efficient",
+      "emotional_drivers": [
+        "Simplicity",
+        "Feeling in control",
+        "Freedom from discomfort"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "TRAIL_OUTDOOR_ADVENTURERS",
+          "weight": 0.087
+        },
+        {
+          "market_id": "SERVICE_WORKERS_ON_FEET",
+          "weight": 0.656
+        },
+        {
+          "market_id": "URBAN_COMMUTERS",
+          "weight": 0.257
+        }
+      ],
+      "prevalence": 1.0
+    },
+    {
+      "persona_id": "Y052",
+      "label": "Specs-Obsessed Runner",
+      "type": "random_diverse",
+      "demographic_context": "early 30s, lives in a mid-sized inland city, works as a teacher.",
+      "primary_motivation": "Improve running performance through optimized shoe tech.",
+      "info_density_preference": "high",
+      "cognitive_style": "Analytical; compares data, materials, and reviews before deciding.",
+      "buying_barriers": [
+        "Vague marketing claims",
+        "Missing technical details"
+      ],
+      "trust_triggers": [
+        "Spec tables",
+        "Performance test results",
+        "Expert quotes"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Progress",
+        "Mastery",
+        "Hitting personal records"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "PERFORMANCE_RUNNERS",
+          "weight": 0.834
+        },
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 0.166
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Y053",
+      "label": "Budget-Stretching Parent",
+      "type": "random_diverse",
+      "demographic_context": "50s, lives in a mid-sized inland city, works as a marketing specialist.",
+      "primary_motivation": "Get reliable shoes for the family without overspending.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Practical; skims for price, durability, and return policy.",
+      "buying_barriers": [
+        "High prices",
+        "No clear durability info",
+        "Unclear return terms"
+      ],
+      "trust_triggers": [
+        "Value messaging",
+        "Guarantees",
+        "User reviews"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Security",
+        "Providing for family",
+        "Avoiding waste"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "BUDGET_FAMILY_SHOPPERS",
+          "weight": 0.797
+        },
+        {
+          "market_id": "SERVICE_WORKERS_ON_FEET",
+          "weight": 0.203
+        }
+      ],
+      "prevalence": 1.0
+    },
+    {
+      "persona_id": "Y054",
+      "label": "Hype-Driven Sneaker Fan",
+      "type": "random_diverse",
+      "demographic_context": "late 20s, lives in a large coastal city, works as a nurse.",
+      "primary_motivation": "Express identity and stay ahead of sneaker trends.",
+      "info_density_preference": "low",
+      "cognitive_style": "Emotion-driven; reacts to story, visuals, and scarcity.",
+      "buying_barriers": [
+        "Boring design",
+        "No sense of uniqueness"
+      ],
+      "trust_triggers": [
+        "Collaborations",
+        "Limited drops",
+        "Social proof"
+      ],
+      "tone_voice_preference": "energetic and motivational",
+      "emotional_drivers": [
+        "Belonging",
+        "Status",
+        "Self-expression"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "SNEAKERHEAD_YOUTH",
+          "weight": 0.662
+        },
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 0.155
+        },
+        {
+          "market_id": "URBAN_COMMUTERS",
+          "weight": 0.184
+        }
+      ],
+      "prevalence": 0.2
+    },
+    {
+      "persona_id": "Y055",
+      "label": "Trail Function Purist",
+      "type": "random_diverse",
+      "demographic_context": "early 20s, lives in a suburban area near a city, works as a freelancer.",
+      "primary_motivation": "Stay safe and confident on rough outdoor terrain.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Detail-aware; checks traction, stability, and materials.",
+      "buying_barriers": [
+        "Unproven durability",
+        "Shallow outdoor claims"
+      ],
+      "trust_triggers": [
+        "Usage scenarios",
+        "Outdoor test stories",
+        "Materials details"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Confidence",
+        "Adventure",
+        "Self-reliance"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 0.565
+        },
+        {
+          "market_id": "TRAIL_OUTDOOR_ADVENTURERS",
+          "weight": 0.435
+        }
+      ],
+      "prevalence": 0.3
+    },
+    {
+      "persona_id": "Y056",
+      "label": "Pain-Avoidance Worker",
+      "type": "random_diverse",
+      "demographic_context": "late 20s, lives in a mid-sized inland city, works as a freelancer.",
+      "primary_motivation": "Avoid foot and back pain during long shifts.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Experience-based; trusts stories of people like them.",
+      "buying_barriers": [
+        "Fear shoes will hurt after a few hours",
+        "No proof of comfort"
+      ],
+      "trust_triggers": [
+        "Testimonials from similar jobs",
+        "Comfort guarantees"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Relief",
+        "End-of-day comfort",
+        "Safety"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.973
+        },
+        {
+          "market_id": "SERVICE_WORKERS_ON_FEET",
+          "weight": 0.027
+        }
+      ],
+      "prevalence": 0.6
+    },
+    {
+      "persona_id": "Y057",
+      "label": "Eco-Skeptic Minimalist",
+      "type": "random_diverse",
+      "demographic_context": "50s, lives in a suburban area near a city, works as a freelancer.",
+      "primary_motivation": "Own fewer, better shoes that align with their values.",
+      "info_density_preference": "high",
+      "cognitive_style": "Critical; looks for specifics on materials and sourcing.",
+      "buying_barriers": [
+        "Greenwashing",
+        "Vague sustainability claims"
+      ],
+      "trust_triggers": [
+        "Concrete certifications",
+        "Supply chain transparency"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Integrity",
+        "Coherence with values",
+        "Longevity"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "ECO_MINDFUL_MINIMALISTS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Y058",
+      "label": "Fashion-First Event-Goer",
+      "type": "random_diverse",
+      "demographic_context": "50s, lives in a mid-sized inland city, works as a nurse.",
+      "primary_motivation": "Look sharp at events while staying reasonably comfortable.",
+      "info_density_preference": "low",
+      "cognitive_style": "Visual and vibe-driven; cares about how shoes fit outfits.",
+      "buying_barriers": [
+        "Plain or generic designs",
+        "No style story"
+      ],
+      "trust_triggers": [
+        "Styled lookbooks",
+        "Outfit ideas",
+        "Brand story"
+      ],
+      "tone_voice_preference": "premium and elegant",
+      "emotional_drivers": [
+        "Confidence",
+        "Standing out",
+        "Admiration"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 0.908
+        },
+        {
+          "market_id": "PERFORMANCE_RUNNERS",
+          "weight": 0.092
+        }
+      ],
+      "prevalence": 0.3
+    },
+    {
+      "persona_id": "Y059",
+      "label": "Mature Stability Seeker",
+      "type": "random_diverse",
+      "demographic_context": "late 30s, lives in a mid-sized inland city, works as a retail associate.",
+      "primary_motivation": "Stay mobile and confident without worrying about falls or pain.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Careful; reads key sections and reassurance messages.",
+      "buying_barriers": [
+        "Fear of instability",
+        "Doubt about true support"
+      ],
+      "trust_triggers": [
+        "Foot-health focus",
+        "Clear support features",
+        "Simple language"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Security",
+        "Independence",
+        "Comfort"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "MATURE_COMFORT_SEEKERS",
+          "weight": 0.601
+        },
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.399
+        }
+      ],
+      "prevalence": 0.6
+    },
+    {
+      "persona_id": "Y060",
+      "label": "Long-Read Researcher",
+      "type": "random_diverse",
+      "demographic_context": "late 20s, lives in a mid-sized inland city, works as a software engineer.",
+      "primary_motivation": "Understand every aspect before committing to a purchase.",
+      "info_density_preference": "high",
+      "cognitive_style": "Research-heavy; reads long pages and comparisons.",
+      "buying_barriers": [
+        "Thin or shallow information",
+        "No comparisons"
+      ],
+      "trust_triggers": [
+        "In-depth FAQs",
+        "Comparisons vs alternatives"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Certainty",
+        "Avoiding regret",
+        "Intellectual satisfaction"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "ECO_MINDFUL_MINIMALISTS",
+          "weight": 0.534
+        },
+        {
+          "market_id": "PERFORMANCE_RUNNERS",
+          "weight": 0.373
+        },
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.093
+        }
+      ],
+      "prevalence": 0.2
+    },
+    {
+      "persona_id": "Y061",
+      "label": "Comfort-First Urban Minimalist",
+      "type": "random_diverse",
+      "demographic_context": "early 30s, lives in a suburban area near a city, works as a teacher.",
+      "primary_motivation": "Maximize day-long comfort while keeping a clean, minimal look.",
+      "info_density_preference": "low",
+      "cognitive_style": "Fast-decider; makes choices from headline and 2-3 key points.",
+      "buying_barriers": [
+        "Overly long pages",
+        "Complex choices",
+        "Unclear sizing"
+      ],
+      "trust_triggers": [
+        "Simple layouts",
+        "Short bullet lists",
+        "Comfort-focused claims"
+      ],
+      "tone_voice_preference": "direct and efficient",
+      "emotional_drivers": [
+        "Simplicity",
+        "Feeling in control",
+        "Freedom from discomfort"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "SERVICE_WORKERS_ON_FEET",
+          "weight": 0.268
+        },
+        {
+          "market_id": "MATURE_COMFORT_SEEKERS",
+          "weight": 0.022
+        },
+        {
+          "market_id": "URBAN_COMMUTERS",
+          "weight": 0.71
+        }
+      ],
+      "prevalence": 1.0
+    },
+    {
+      "persona_id": "Y062",
+      "label": "Specs-Obsessed Runner",
+      "type": "random_diverse",
+      "demographic_context": "early 30s, lives in a mid-sized inland city, works as a marketing specialist.",
+      "primary_motivation": "Improve running performance through optimized shoe tech.",
+      "info_density_preference": "high",
+      "cognitive_style": "Analytical; compares data, materials, and reviews before deciding.",
+      "buying_barriers": [
+        "Vague marketing claims",
+        "Missing technical details"
+      ],
+      "trust_triggers": [
+        "Spec tables",
+        "Performance test results",
+        "Expert quotes"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Progress",
+        "Mastery",
+        "Hitting personal records"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "PERFORMANCE_RUNNERS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Y063",
+      "label": "Budget-Stretching Parent",
+      "type": "random_diverse",
+      "demographic_context": "early 20s, lives in a small city with good transit, works as a graphic designer.",
+      "primary_motivation": "Get reliable shoes for the family without overspending.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Practical; skims for price, durability, and return policy.",
+      "buying_barriers": [
+        "High prices",
+        "No clear durability info",
+        "Unclear return terms"
+      ],
+      "trust_triggers": [
+        "Value messaging",
+        "Guarantees",
+        "User reviews"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Security",
+        "Providing for family",
+        "Avoiding waste"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "BUDGET_FAMILY_SHOPPERS",
+          "weight": 0.307
+        },
+        {
+          "market_id": "SERVICE_WORKERS_ON_FEET",
+          "weight": 0.693
+        }
+      ],
+      "prevalence": 1.0
+    },
+    {
+      "persona_id": "Y064",
+      "label": "Hype-Driven Sneaker Fan",
+      "type": "random_diverse",
+      "demographic_context": "early 20s, lives in a college town, works as a marketing specialist.",
+      "primary_motivation": "Express identity and stay ahead of sneaker trends.",
+      "info_density_preference": "low",
+      "cognitive_style": "Emotion-driven; reacts to story, visuals, and scarcity.",
+      "buying_barriers": [
+        "Boring design",
+        "No sense of uniqueness"
+      ],
+      "trust_triggers": [
+        "Collaborations",
+        "Limited drops",
+        "Social proof"
+      ],
+      "tone_voice_preference": "energetic and motivational",
+      "emotional_drivers": [
+        "Belonging",
+        "Status",
+        "Self-expression"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "SNEAKERHEAD_YOUTH",
+          "weight": 0.433
+        },
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 0.001
+        },
+        {
+          "market_id": "URBAN_COMMUTERS",
+          "weight": 0.566
+        }
+      ],
+      "prevalence": 0.2
+    },
+    {
+      "persona_id": "Y065",
+      "label": "Trail Function Purist",
+      "type": "random_diverse",
+      "demographic_context": "40s, lives in a mid-sized inland city, works as a nurse.",
+      "primary_motivation": "Stay safe and confident on rough outdoor terrain.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Detail-aware; checks traction, stability, and materials.",
+      "buying_barriers": [
+        "Unproven durability",
+        "Shallow outdoor claims"
+      ],
+      "trust_triggers": [
+        "Usage scenarios",
+        "Outdoor test stories",
+        "Materials details"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Confidence",
+        "Adventure",
+        "Self-reliance"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "SERVICE_WORKERS_ON_FEET",
+          "weight": 0.484
+        },
+        {
+          "market_id": "TRAIL_OUTDOOR_ADVENTURERS",
+          "weight": 0.516
+        }
+      ],
+      "prevalence": 0.3
+    },
+    {
+      "persona_id": "Y066",
+      "label": "Pain-Avoidance Worker",
+      "type": "random_diverse",
+      "demographic_context": "early 20s, lives in a suburban area near a city, works as a marketing specialist.",
+      "primary_motivation": "Avoid foot and back pain during long shifts.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Experience-based; trusts stories of people like them.",
+      "buying_barriers": [
+        "Fear shoes will hurt after a few hours",
+        "No proof of comfort"
+      ],
+      "trust_triggers": [
+        "Testimonials from similar jobs",
+        "Comfort guarantees"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Relief",
+        "End-of-day comfort",
+        "Safety"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 0.207
+        },
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.442
+        },
+        {
+          "market_id": "SERVICE_WORKERS_ON_FEET",
+          "weight": 0.351
+        }
+      ],
+      "prevalence": 0.6
+    },
+    {
+      "persona_id": "Y067",
+      "label": "Eco-Skeptic Minimalist",
+      "type": "random_diverse",
+      "demographic_context": "late 20s, lives in a college town, works as a teacher.",
+      "primary_motivation": "Own fewer, better shoes that align with their values.",
+      "info_density_preference": "high",
+      "cognitive_style": "Critical; looks for specifics on materials and sourcing.",
+      "buying_barriers": [
+        "Greenwashing",
+        "Vague sustainability claims"
+      ],
+      "trust_triggers": [
+        "Concrete certifications",
+        "Supply chain transparency"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Integrity",
+        "Coherence with values",
+        "Longevity"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "ECO_MINDFUL_MINIMALISTS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Y068",
+      "label": "Fashion-First Event-Goer",
+      "type": "random_diverse",
+      "demographic_context": "late 20s, lives in a small city with good transit, works as a marketing specialist.",
+      "primary_motivation": "Look sharp at events while staying reasonably comfortable.",
+      "info_density_preference": "low",
+      "cognitive_style": "Visual and vibe-driven; cares about how shoes fit outfits.",
+      "buying_barriers": [
+        "Plain or generic designs",
+        "No style story"
+      ],
+      "trust_triggers": [
+        "Styled lookbooks",
+        "Outfit ideas",
+        "Brand story"
+      ],
+      "tone_voice_preference": "premium and elegant",
+      "emotional_drivers": [
+        "Confidence",
+        "Standing out",
+        "Admiration"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "MATURE_COMFORT_SEEKERS",
+          "weight": 0.733
+        },
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 0.267
+        }
+      ],
+      "prevalence": 0.3
+    },
+    {
+      "persona_id": "Y069",
+      "label": "Mature Stability Seeker",
+      "type": "random_diverse",
+      "demographic_context": "late 20s, lives in a college town, works as a freelancer.",
+      "primary_motivation": "Stay mobile and confident without worrying about falls or pain.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Careful; reads key sections and reassurance messages.",
+      "buying_barriers": [
+        "Fear of instability",
+        "Doubt about true support"
+      ],
+      "trust_triggers": [
+        "Foot-health focus",
+        "Clear support features",
+        "Simple language"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Security",
+        "Independence",
+        "Comfort"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "MATURE_COMFORT_SEEKERS",
+          "weight": 0.415
+        },
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.394
+        },
+        {
+          "market_id": "SERVICE_WORKERS_ON_FEET",
+          "weight": 0.191
+        }
+      ],
+      "prevalence": 0.6
+    },
+    {
+      "persona_id": "Y070",
+      "label": "Long-Read Researcher",
+      "type": "random_diverse",
+      "demographic_context": "late 30s, lives in a mid-sized inland city, works as a teacher.",
+      "primary_motivation": "Understand every aspect before committing to a purchase.",
+      "info_density_preference": "high",
+      "cognitive_style": "Research-heavy; reads long pages and comparisons.",
+      "buying_barriers": [
+        "Thin or shallow information",
+        "No comparisons"
+      ],
+      "trust_triggers": [
+        "In-depth FAQs",
+        "Comparisons vs alternatives"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Certainty",
+        "Avoiding regret",
+        "Intellectual satisfaction"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "ECO_MINDFUL_MINIMALISTS",
+          "weight": 0.285
+        },
+        {
+          "market_id": "MATURE_COMFORT_SEEKERS",
+          "weight": 0.266
+        },
+        {
+          "market_id": "PERFORMANCE_RUNNERS",
+          "weight": 0.04
+        },
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.409
+        }
+      ],
+      "prevalence": 0.2
+    },
+    {
+      "persona_id": "Y071",
+      "label": "Comfort-First Urban Minimalist",
+      "type": "random_diverse",
+      "demographic_context": "late 20s, lives in a suburban area near a city, works as a retail associate.",
+      "primary_motivation": "Maximize day-long comfort while keeping a clean, minimal look.",
+      "info_density_preference": "low",
+      "cognitive_style": "Fast-decider; makes choices from headline and 2-3 key points.",
+      "buying_barriers": [
+        "Overly long pages",
+        "Complex choices",
+        "Unclear sizing"
+      ],
+      "trust_triggers": [
+        "Simple layouts",
+        "Short bullet lists",
+        "Comfort-focused claims"
+      ],
+      "tone_voice_preference": "direct and efficient",
+      "emotional_drivers": [
+        "Simplicity",
+        "Feeling in control",
+        "Freedom from discomfort"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "SERVICE_WORKERS_ON_FEET",
+          "weight": 0.761
+        },
+        {
+          "market_id": "URBAN_COMMUTERS",
+          "weight": 0.239
+        }
+      ],
+      "prevalence": 1.0
+    },
+    {
+      "persona_id": "Y072",
+      "label": "Specs-Obsessed Runner",
+      "type": "random_diverse",
+      "demographic_context": "late 30s, lives in a small city with good transit, works as a freelancer.",
+      "primary_motivation": "Improve running performance through optimized shoe tech.",
+      "info_density_preference": "high",
+      "cognitive_style": "Analytical; compares data, materials, and reviews before deciding.",
+      "buying_barriers": [
+        "Vague marketing claims",
+        "Missing technical details"
+      ],
+      "trust_triggers": [
+        "Spec tables",
+        "Performance test results",
+        "Expert quotes"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Progress",
+        "Mastery",
+        "Hitting personal records"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "PERFORMANCE_RUNNERS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Y073",
+      "label": "Budget-Stretching Parent",
+      "type": "random_diverse",
+      "demographic_context": "50s, lives in a small city with good transit, works as a retail associate.",
+      "primary_motivation": "Get reliable shoes for the family without overspending.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Practical; skims for price, durability, and return policy.",
+      "buying_barriers": [
+        "High prices",
+        "No clear durability info",
+        "Unclear return terms"
+      ],
+      "trust_triggers": [
+        "Value messaging",
+        "Guarantees",
+        "User reviews"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Security",
+        "Providing for family",
+        "Avoiding waste"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "BUDGET_FAMILY_SHOPPERS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 1.0
+    },
+    {
+      "persona_id": "Y074",
+      "label": "Hype-Driven Sneaker Fan",
+      "type": "random_diverse",
+      "demographic_context": "late 30s, lives in a mid-sized inland city, works as a retail associate.",
+      "primary_motivation": "Express identity and stay ahead of sneaker trends.",
+      "info_density_preference": "low",
+      "cognitive_style": "Emotion-driven; reacts to story, visuals, and scarcity.",
+      "buying_barriers": [
+        "Boring design",
+        "No sense of uniqueness"
+      ],
+      "trust_triggers": [
+        "Collaborations",
+        "Limited drops",
+        "Social proof"
+      ],
+      "tone_voice_preference": "energetic and motivational",
+      "emotional_drivers": [
+        "Belonging",
+        "Status",
+        "Self-expression"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "SNEAKERHEAD_YOUTH",
+          "weight": 0.007
+        },
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 0.993
+        }
+      ],
+      "prevalence": 0.2
+    },
+    {
+      "persona_id": "Y075",
+      "label": "Trail Function Purist",
+      "type": "random_diverse",
+      "demographic_context": "early 20s, lives in a college town, works as a retail associate.",
+      "primary_motivation": "Stay safe and confident on rough outdoor terrain.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Detail-aware; checks traction, stability, and materials.",
+      "buying_barriers": [
+        "Unproven durability",
+        "Shallow outdoor claims"
+      ],
+      "trust_triggers": [
+        "Usage scenarios",
+        "Outdoor test stories",
+        "Materials details"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Confidence",
+        "Adventure",
+        "Self-reliance"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "MATURE_COMFORT_SEEKERS",
+          "weight": 0.455
+        },
+        {
+          "market_id": "TRAIL_OUTDOOR_ADVENTURERS",
+          "weight": 0.545
+        }
+      ],
+      "prevalence": 0.3
+    },
+    {
+      "persona_id": "Y076",
+      "label": "Pain-Avoidance Worker",
+      "type": "random_diverse",
+      "demographic_context": "early 20s, lives in a college town, works as a retail associate.",
+      "primary_motivation": "Avoid foot and back pain during long shifts.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Experience-based; trusts stories of people like them.",
+      "buying_barriers": [
+        "Fear shoes will hurt after a few hours",
+        "No proof of comfort"
+      ],
+      "trust_triggers": [
+        "Testimonials from similar jobs",
+        "Comfort guarantees"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Relief",
+        "End-of-day comfort",
+        "Safety"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.403
+        },
+        {
+          "market_id": "SERVICE_WORKERS_ON_FEET",
+          "weight": 0.597
+        }
+      ],
+      "prevalence": 0.6
+    },
+    {
+      "persona_id": "Y077",
+      "label": "Eco-Skeptic Minimalist",
+      "type": "random_diverse",
+      "demographic_context": "40s, lives in a suburban area near a city, works as a freelancer.",
+      "primary_motivation": "Own fewer, better shoes that align with their values.",
+      "info_density_preference": "high",
+      "cognitive_style": "Critical; looks for specifics on materials and sourcing.",
+      "buying_barriers": [
+        "Greenwashing",
+        "Vague sustainability claims"
+      ],
+      "trust_triggers": [
+        "Concrete certifications",
+        "Supply chain transparency"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Integrity",
+        "Coherence with values",
+        "Longevity"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "ECO_MINDFUL_MINIMALISTS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Y078",
+      "label": "Fashion-First Event-Goer",
+      "type": "random_diverse",
+      "demographic_context": "50s, lives in a small city with good transit, works as a graphic designer.",
+      "primary_motivation": "Look sharp at events while staying reasonably comfortable.",
+      "info_density_preference": "low",
+      "cognitive_style": "Visual and vibe-driven; cares about how shoes fit outfits.",
+      "buying_barriers": [
+        "Plain or generic designs",
+        "No style story"
+      ],
+      "trust_triggers": [
+        "Styled lookbooks",
+        "Outfit ideas",
+        "Brand story"
+      ],
+      "tone_voice_preference": "premium and elegant",
+      "emotional_drivers": [
+        "Confidence",
+        "Standing out",
+        "Admiration"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.3
+    },
+    {
+      "persona_id": "Y079",
+      "label": "Mature Stability Seeker",
+      "type": "random_diverse",
+      "demographic_context": "late 20s, lives in a college town, works as a graphic designer.",
+      "primary_motivation": "Stay mobile and confident without worrying about falls or pain.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Careful; reads key sections and reassurance messages.",
+      "buying_barriers": [
+        "Fear of instability",
+        "Doubt about true support"
+      ],
+      "trust_triggers": [
+        "Foot-health focus",
+        "Clear support features",
+        "Simple language"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Security",
+        "Independence",
+        "Comfort"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "SNEAKERHEAD_YOUTH",
+          "weight": 0.443
+        },
+        {
+          "market_id": "MATURE_COMFORT_SEEKERS",
+          "weight": 0.146
+        },
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.41
+        }
+      ],
+      "prevalence": 0.6
+    },
+    {
+      "persona_id": "Y080",
+      "label": "Long-Read Researcher",
+      "type": "random_diverse",
+      "demographic_context": "late 30s, lives in a mid-sized inland city, works as a nurse.",
+      "primary_motivation": "Understand every aspect before committing to a purchase.",
+      "info_density_preference": "high",
+      "cognitive_style": "Research-heavy; reads long pages and comparisons.",
+      "buying_barriers": [
+        "Thin or shallow information",
+        "No comparisons"
+      ],
+      "trust_triggers": [
+        "In-depth FAQs",
+        "Comparisons vs alternatives"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Certainty",
+        "Avoiding regret",
+        "Intellectual satisfaction"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "ECO_MINDFUL_MINIMALISTS",
+          "weight": 0.152
+        },
+        {
+          "market_id": "PERFORMANCE_RUNNERS",
+          "weight": 0.218
+        },
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.578
+        },
+        {
+          "market_id": "TRAIL_OUTDOOR_ADVENTURERS",
+          "weight": 0.052
+        }
+      ],
+      "prevalence": 0.2
+    },
+    {
+      "persona_id": "Y081",
+      "label": "Comfort-First Urban Minimalist",
+      "type": "random_diverse",
+      "demographic_context": "late 20s, lives in a mid-sized inland city, works as a graphic designer.",
+      "primary_motivation": "Maximize day-long comfort while keeping a clean, minimal look.",
+      "info_density_preference": "low",
+      "cognitive_style": "Fast-decider; makes choices from headline and 2-3 key points.",
+      "buying_barriers": [
+        "Overly long pages",
+        "Complex choices",
+        "Unclear sizing"
+      ],
+      "trust_triggers": [
+        "Simple layouts",
+        "Short bullet lists",
+        "Comfort-focused claims"
+      ],
+      "tone_voice_preference": "direct and efficient",
+      "emotional_drivers": [
+        "Simplicity",
+        "Feeling in control",
+        "Freedom from discomfort"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "SERVICE_WORKERS_ON_FEET",
+          "weight": 0.917
+        },
+        {
+          "market_id": "URBAN_COMMUTERS",
+          "weight": 0.083
+        }
+      ],
+      "prevalence": 1.0
+    },
+    {
+      "persona_id": "Y082",
+      "label": "Specs-Obsessed Runner",
+      "type": "random_diverse",
+      "demographic_context": "late 30s, lives in a suburban area near a city, works as a marketing specialist.",
+      "primary_motivation": "Improve running performance through optimized shoe tech.",
+      "info_density_preference": "high",
+      "cognitive_style": "Analytical; compares data, materials, and reviews before deciding.",
+      "buying_barriers": [
+        "Vague marketing claims",
+        "Missing technical details"
+      ],
+      "trust_triggers": [
+        "Spec tables",
+        "Performance test results",
+        "Expert quotes"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Progress",
+        "Mastery",
+        "Hitting personal records"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "PERFORMANCE_RUNNERS",
+          "weight": 0.33
+        },
+        {
+          "market_id": "URBAN_COMMUTERS",
+          "weight": 0.67
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Y083",
+      "label": "Budget-Stretching Parent",
+      "type": "random_diverse",
+      "demographic_context": "40s, lives in a large coastal city, works as a freelancer.",
+      "primary_motivation": "Get reliable shoes for the family without overspending.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Practical; skims for price, durability, and return policy.",
+      "buying_barriers": [
+        "High prices",
+        "No clear durability info",
+        "Unclear return terms"
+      ],
+      "trust_triggers": [
+        "Value messaging",
+        "Guarantees",
+        "User reviews"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Security",
+        "Providing for family",
+        "Avoiding waste"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "BUDGET_FAMILY_SHOPPERS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 1.0
+    },
+    {
+      "persona_id": "Y084",
+      "label": "Hype-Driven Sneaker Fan",
+      "type": "random_diverse",
+      "demographic_context": "late 30s, lives in a large coastal city, works as a nurse.",
+      "primary_motivation": "Express identity and stay ahead of sneaker trends.",
+      "info_density_preference": "low",
+      "cognitive_style": "Emotion-driven; reacts to story, visuals, and scarcity.",
+      "buying_barriers": [
+        "Boring design",
+        "No sense of uniqueness"
+      ],
+      "trust_triggers": [
+        "Collaborations",
+        "Limited drops",
+        "Social proof"
+      ],
+      "tone_voice_preference": "energetic and motivational",
+      "emotional_drivers": [
+        "Belonging",
+        "Status",
+        "Self-expression"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "SNEAKERHEAD_YOUTH",
+          "weight": 0.472
+        },
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 0.528
+        }
+      ],
+      "prevalence": 0.2
+    },
+    {
+      "persona_id": "Y085",
+      "label": "Trail Function Purist",
+      "type": "random_diverse",
+      "demographic_context": "late 30s, lives in a small city with good transit, works as a teacher.",
+      "primary_motivation": "Stay safe and confident on rough outdoor terrain.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Detail-aware; checks traction, stability, and materials.",
+      "buying_barriers": [
+        "Unproven durability",
+        "Shallow outdoor claims"
+      ],
+      "trust_triggers": [
+        "Usage scenarios",
+        "Outdoor test stories",
+        "Materials details"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Confidence",
+        "Adventure",
+        "Self-reliance"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "TRAIL_OUTDOOR_ADVENTURERS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.3
+    },
+    {
+      "persona_id": "Y086",
+      "label": "Pain-Avoidance Worker",
+      "type": "random_diverse",
+      "demographic_context": "late 20s, lives in a college town, works as a retail associate.",
+      "primary_motivation": "Avoid foot and back pain during long shifts.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Experience-based; trusts stories of people like them.",
+      "buying_barriers": [
+        "Fear shoes will hurt after a few hours",
+        "No proof of comfort"
+      ],
+      "trust_triggers": [
+        "Testimonials from similar jobs",
+        "Comfort guarantees"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Relief",
+        "End-of-day comfort",
+        "Safety"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "ECO_MINDFUL_MINIMALISTS",
+          "weight": 0.028
+        },
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.322
+        },
+        {
+          "market_id": "SERVICE_WORKERS_ON_FEET",
+          "weight": 0.65
+        }
+      ],
+      "prevalence": 0.6
+    },
+    {
+      "persona_id": "Y087",
+      "label": "Eco-Skeptic Minimalist",
+      "type": "random_diverse",
+      "demographic_context": "late 30s, lives in a mid-sized inland city, works as a freelancer.",
+      "primary_motivation": "Own fewer, better shoes that align with their values.",
+      "info_density_preference": "high",
+      "cognitive_style": "Critical; looks for specifics on materials and sourcing.",
+      "buying_barriers": [
+        "Greenwashing",
+        "Vague sustainability claims"
+      ],
+      "trust_triggers": [
+        "Concrete certifications",
+        "Supply chain transparency"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Integrity",
+        "Coherence with values",
+        "Longevity"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "BUDGET_FAMILY_SHOPPERS",
+          "weight": 0.647
+        },
+        {
+          "market_id": "ECO_MINDFUL_MINIMALISTS",
+          "weight": 0.353
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Y088",
+      "label": "Fashion-First Event-Goer",
+      "type": "random_diverse",
+      "demographic_context": "late 30s, lives in a small city with good transit, works as a marketing specialist.",
+      "primary_motivation": "Look sharp at events while staying reasonably comfortable.",
+      "info_density_preference": "low",
+      "cognitive_style": "Visual and vibe-driven; cares about how shoes fit outfits.",
+      "buying_barriers": [
+        "Plain or generic designs",
+        "No style story"
+      ],
+      "trust_triggers": [
+        "Styled lookbooks",
+        "Outfit ideas",
+        "Brand story"
+      ],
+      "tone_voice_preference": "premium and elegant",
+      "emotional_drivers": [
+        "Confidence",
+        "Standing out",
+        "Admiration"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.3
+    },
+    {
+      "persona_id": "Y089",
+      "label": "Mature Stability Seeker",
+      "type": "random_diverse",
+      "demographic_context": "late 30s, lives in a mid-sized inland city, works as a freelancer.",
+      "primary_motivation": "Stay mobile and confident without worrying about falls or pain.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Careful; reads key sections and reassurance messages.",
+      "buying_barriers": [
+        "Fear of instability",
+        "Doubt about true support"
+      ],
+      "trust_triggers": [
+        "Foot-health focus",
+        "Clear support features",
+        "Simple language"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Security",
+        "Independence",
+        "Comfort"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "MATURE_COMFORT_SEEKERS",
+          "weight": 0.25
+        },
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.314
+        },
+        {
+          "market_id": "URBAN_COMMUTERS",
+          "weight": 0.436
+        }
+      ],
+      "prevalence": 0.6
+    },
+    {
+      "persona_id": "Y090",
+      "label": "Long-Read Researcher",
+      "type": "random_diverse",
+      "demographic_context": "early 30s, lives in a college town, works as a nurse.",
+      "primary_motivation": "Understand every aspect before committing to a purchase.",
+      "info_density_preference": "high",
+      "cognitive_style": "Research-heavy; reads long pages and comparisons.",
+      "buying_barriers": [
+        "Thin or shallow information",
+        "No comparisons"
+      ],
+      "trust_triggers": [
+        "In-depth FAQs",
+        "Comparisons vs alternatives"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Certainty",
+        "Avoiding regret",
+        "Intellectual satisfaction"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "ECO_MINDFUL_MINIMALISTS",
+          "weight": 0.713
+        },
+        {
+          "market_id": "PERFORMANCE_RUNNERS",
+          "weight": 0.216
+        },
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.07
+        }
+      ],
+      "prevalence": 0.2
+    },
+    {
+      "persona_id": "Y091",
+      "label": "Comfort-First Urban Minimalist",
+      "type": "random_diverse",
+      "demographic_context": "early 20s, lives in a small city with good transit, works as a software engineer.",
+      "primary_motivation": "Maximize day-long comfort while keeping a clean, minimal look.",
+      "info_density_preference": "low",
+      "cognitive_style": "Fast-decider; makes choices from headline and 2-3 key points.",
+      "buying_barriers": [
+        "Overly long pages",
+        "Complex choices",
+        "Unclear sizing"
+      ],
+      "trust_triggers": [
+        "Simple layouts",
+        "Short bullet lists",
+        "Comfort-focused claims"
+      ],
+      "tone_voice_preference": "direct and efficient",
+      "emotional_drivers": [
+        "Simplicity",
+        "Feeling in control",
+        "Freedom from discomfort"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "SERVICE_WORKERS_ON_FEET",
+          "weight": 0.35
+        },
+        {
+          "market_id": "URBAN_COMMUTERS",
+          "weight": 0.65
+        }
+      ],
+      "prevalence": 1.0
+    },
+    {
+      "persona_id": "Y092",
+      "label": "Specs-Obsessed Runner",
+      "type": "random_diverse",
+      "demographic_context": "50s, lives in a large coastal city, works as a freelancer.",
+      "primary_motivation": "Improve running performance through optimized shoe tech.",
+      "info_density_preference": "high",
+      "cognitive_style": "Analytical; compares data, materials, and reviews before deciding.",
+      "buying_barriers": [
+        "Vague marketing claims",
+        "Missing technical details"
+      ],
+      "trust_triggers": [
+        "Spec tables",
+        "Performance test results",
+        "Expert quotes"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Progress",
+        "Mastery",
+        "Hitting personal records"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "SNEAKERHEAD_YOUTH",
+          "weight": 0.907
+        },
+        {
+          "market_id": "PERFORMANCE_RUNNERS",
+          "weight": 0.093
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Y093",
+      "label": "Budget-Stretching Parent",
+      "type": "random_diverse",
+      "demographic_context": "late 20s, lives in a mid-sized inland city, works as a retail associate.",
+      "primary_motivation": "Get reliable shoes for the family without overspending.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Practical; skims for price, durability, and return policy.",
+      "buying_barriers": [
+        "High prices",
+        "No clear durability info",
+        "Unclear return terms"
+      ],
+      "trust_triggers": [
+        "Value messaging",
+        "Guarantees",
+        "User reviews"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Security",
+        "Providing for family",
+        "Avoiding waste"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "BUDGET_FAMILY_SHOPPERS",
+          "weight": 0.721
+        },
+        {
+          "market_id": "PERFORMANCE_RUNNERS",
+          "weight": 0.279
+        }
+      ],
+      "prevalence": 1.0
+    },
+    {
+      "persona_id": "Y094",
+      "label": "Hype-Driven Sneaker Fan",
+      "type": "random_diverse",
+      "demographic_context": "50s, lives in a suburban area near a city, works as a freelancer.",
+      "primary_motivation": "Express identity and stay ahead of sneaker trends.",
+      "info_density_preference": "low",
+      "cognitive_style": "Emotion-driven; reacts to story, visuals, and scarcity.",
+      "buying_barriers": [
+        "Boring design",
+        "No sense of uniqueness"
+      ],
+      "trust_triggers": [
+        "Collaborations",
+        "Limited drops",
+        "Social proof"
+      ],
+      "tone_voice_preference": "energetic and motivational",
+      "emotional_drivers": [
+        "Belonging",
+        "Status",
+        "Self-expression"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "SNEAKERHEAD_YOUTH",
+          "weight": 0.413
+        },
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 0.509
+        },
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.078
+        }
+      ],
+      "prevalence": 0.2
+    },
+    {
+      "persona_id": "Y095",
+      "label": "Trail Function Purist",
+      "type": "random_diverse",
+      "demographic_context": "late 20s, lives in a suburban area near a city, works as a software engineer.",
+      "primary_motivation": "Stay safe and confident on rough outdoor terrain.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Detail-aware; checks traction, stability, and materials.",
+      "buying_barriers": [
+        "Unproven durability",
+        "Shallow outdoor claims"
+      ],
+      "trust_triggers": [
+        "Usage scenarios",
+        "Outdoor test stories",
+        "Materials details"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Confidence",
+        "Adventure",
+        "Self-reliance"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "TRAIL_OUTDOOR_ADVENTURERS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.3
+    },
+    {
+      "persona_id": "Y096",
+      "label": "Pain-Avoidance Worker",
+      "type": "random_diverse",
+      "demographic_context": "late 30s, lives in a college town, works as a teacher.",
+      "primary_motivation": "Avoid foot and back pain during long shifts.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Experience-based; trusts stories of people like them.",
+      "buying_barriers": [
+        "Fear shoes will hurt after a few hours",
+        "No proof of comfort"
+      ],
+      "trust_triggers": [
+        "Testimonials from similar jobs",
+        "Comfort guarantees"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Relief",
+        "End-of-day comfort",
+        "Safety"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.524
+        },
+        {
+          "market_id": "SERVICE_WORKERS_ON_FEET",
+          "weight": 0.476
+        }
+      ],
+      "prevalence": 0.6
+    },
+    {
+      "persona_id": "Y097",
+      "label": "Eco-Skeptic Minimalist",
+      "type": "random_diverse",
+      "demographic_context": "early 20s, lives in a suburban area near a city, works as a freelancer.",
+      "primary_motivation": "Own fewer, better shoes that align with their values.",
+      "info_density_preference": "high",
+      "cognitive_style": "Critical; looks for specifics on materials and sourcing.",
+      "buying_barriers": [
+        "Greenwashing",
+        "Vague sustainability claims"
+      ],
+      "trust_triggers": [
+        "Concrete certifications",
+        "Supply chain transparency"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Integrity",
+        "Coherence with values",
+        "Longevity"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "ECO_MINDFUL_MINIMALISTS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Y098",
+      "label": "Fashion-First Event-Goer",
+      "type": "random_diverse",
+      "demographic_context": "40s, lives in a large coastal city, works as a nurse.",
+      "primary_motivation": "Look sharp at events while staying reasonably comfortable.",
+      "info_density_preference": "low",
+      "cognitive_style": "Visual and vibe-driven; cares about how shoes fit outfits.",
+      "buying_barriers": [
+        "Plain or generic designs",
+        "No style story"
+      ],
+      "trust_triggers": [
+        "Styled lookbooks",
+        "Outfit ideas",
+        "Brand story"
+      ],
+      "tone_voice_preference": "premium and elegant",
+      "emotional_drivers": [
+        "Confidence",
+        "Standing out",
+        "Admiration"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 0.096
+        },
+        {
+          "market_id": "SERVICE_WORKERS_ON_FEET",
+          "weight": 0.904
+        }
+      ],
+      "prevalence": 0.3
+    },
+    {
+      "persona_id": "Y099",
+      "label": "Mature Stability Seeker",
+      "type": "random_diverse",
+      "demographic_context": "early 20s, lives in a college town, works as a freelancer.",
+      "primary_motivation": "Stay mobile and confident without worrying about falls or pain.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Careful; reads key sections and reassurance messages.",
+      "buying_barriers": [
+        "Fear of instability",
+        "Doubt about true support"
+      ],
+      "trust_triggers": [
+        "Foot-health focus",
+        "Clear support features",
+        "Simple language"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Security",
+        "Independence",
+        "Comfort"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "MATURE_COMFORT_SEEKERS",
+          "weight": 0.396
+        },
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 0.262
+        },
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.342
+        }
+      ],
+      "prevalence": 0.6
+    },
+    {
+      "persona_id": "Y100",
+      "label": "Long-Read Researcher",
+      "type": "random_diverse",
+      "demographic_context": "50s, lives in a mid-sized inland city, works as a graphic designer.",
+      "primary_motivation": "Understand every aspect before committing to a purchase.",
+      "info_density_preference": "high",
+      "cognitive_style": "Research-heavy; reads long pages and comparisons.",
+      "buying_barriers": [
+        "Thin or shallow information",
+        "No comparisons"
+      ],
+      "trust_triggers": [
+        "In-depth FAQs",
+        "Comparisons vs alternatives"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Certainty",
+        "Avoiding regret",
+        "Intellectual satisfaction"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "ECO_MINDFUL_MINIMALISTS",
+          "weight": 0.374
+        },
+        {
+          "market_id": "MATURE_COMFORT_SEEKERS",
+          "weight": 0.105
+        },
+        {
+          "market_id": "PERFORMANCE_RUNNERS",
+          "weight": 0.313
+        },
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.208
+        }
+      ],
+      "prevalence": 0.2
+    }
+  ]
+}

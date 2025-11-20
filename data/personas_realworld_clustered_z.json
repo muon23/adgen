@@ -1,0 +1,3346 @@
+{
+  "personas": [
+    {
+      "persona_id": "Z001",
+      "label": "Urban Desk-to-Dinner Professional",
+      "type": "realworld_cluster",
+      "demographic_context": "Late 20s to mid 30s, works in a downtown office, often goes out after work. Often buys after seeing ads on social media.",
+      "primary_motivation": "Have one pair of shoes that works for the office, commute, and social evenings.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Skims headlines and benefits, then checks a few details if interested.",
+      "buying_barriers": [
+        "Shoes looking too casual for office",
+        "Shoes hurting after a full day"
+      ],
+      "trust_triggers": [
+        "Use-case storytelling",
+        "Comfort testimonials from similar professionals"
+      ],
+      "tone_voice_preference": "premium and elegant",
+      "emotional_drivers": [
+        "Feeling put-together",
+        "Seamless transitions through the day"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 0.582
+        },
+        {
+          "market_id": "URBAN_COMMUTERS",
+          "weight": 0.418
+        }
+      ],
+      "prevalence": 1.0
+    },
+    {
+      "persona_id": "Z002",
+      "label": "Weekend 5K Enthusiast",
+      "type": "realworld_cluster",
+      "demographic_context": "Early 30s, works full-time, runs a few times per week and does occasional races. Prefers online shopping to in-store visits.",
+      "primary_motivation": "Stay fit and injury-free with reliable running shoes.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Balanced; reads a mix of specs and user reviews.",
+      "buying_barriers": [
+        "Worry shoes won\u2019t last or will cause pain",
+        "Overly complex tech explanations"
+      ],
+      "trust_triggers": [
+        "Clear support features",
+        "Evidence of durability",
+        "Runner stories"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Progress",
+        "Health",
+        "Consistency"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "PERFORMANCE_RUNNERS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Z003",
+      "label": "Value-First Family Planner",
+      "type": "realworld_cluster",
+      "demographic_context": "Mid 30s to 40s, parent of school-age kids, juggles busy schedule. Shares recommendations with friends.",
+      "primary_motivation": "Buy shoes that last and feel good without straining the budget.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Practical; checks price, durability, and comfort guarantees.",
+      "buying_barriers": [
+        "High prices without clear benefits",
+        "Unknown brands with no reviews"
+      ],
+      "trust_triggers": [
+        "Value framing",
+        "Testimonials from other parents",
+        "Return policy clarity"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Security",
+        "Responsibility",
+        "Avoiding bad surprises"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "BUDGET_FAMILY_SHOPPERS",
+          "weight": 0.344
+        },
+        {
+          "market_id": "ECO_MINDFUL_MINIMALISTS",
+          "weight": 0.656
+        }
+      ],
+      "prevalence": 1.0
+    },
+    {
+      "persona_id": "Z004",
+      "label": "Drop-Hunting Sneakerhead",
+      "type": "realworld_cluster",
+      "demographic_context": "Late teens to late 20s, follows sneaker news and social media closely. Is cautious but willing to try new brands.",
+      "primary_motivation": "Get unique or limited sneakers that signal taste and status.",
+      "info_density_preference": "low",
+      "cognitive_style": "Fast, emotion-driven; scans visuals, story, and scarcity cues.",
+      "buying_barriers": [
+        "Generic design",
+        "No hype or story"
+      ],
+      "trust_triggers": [
+        "Collabs",
+        "Limited releases",
+        "Social proof"
+      ],
+      "tone_voice_preference": "energetic and motivational",
+      "emotional_drivers": [
+        "Belonging",
+        "Status",
+        "Self-expression"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "SNEAKERHEAD_YOUTH",
+          "weight": 0.405
+        },
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 0.595
+        }
+      ],
+      "prevalence": 0.2
+    },
+    {
+      "persona_id": "Z005",
+      "label": "Weekend Trail Explorer",
+      "type": "realworld_cluster",
+      "demographic_context": "Late 20s to 40s, works weekdays, spends some weekends hiking. Prefers online shopping to in-store visits.",
+      "primary_motivation": "Stay safe and comfortable on trails without overbuying heavy gear.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Scenario-driven; imagines specific trail conditions.",
+      "buying_barriers": [
+        "Fear of slipping",
+        "Unclear use cases"
+      ],
+      "trust_triggers": [
+        "Trail photography",
+        "Grip and stability details"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Freedom",
+        "Adventure",
+        "Competence"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "SNEAKERHEAD_YOUTH",
+          "weight": 0.579
+        },
+        {
+          "market_id": "TRAIL_OUTDOOR_ADVENTURERS",
+          "weight": 0.421
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Z006",
+      "label": "Shift-Weary Server",
+      "type": "realworld_cluster",
+      "demographic_context": "20s to 40s, works long shifts in restaurants or cafes. Prefers online shopping to in-store visits.",
+      "primary_motivation": "End shifts with less foot and back pain.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Empathy-driven; listens to stories from people like them.",
+      "buying_barriers": [
+        "Shoes that only feel good for first hour",
+        "Slippery soles"
+      ],
+      "trust_triggers": [
+        "Job-specific testimonials",
+        "Slip resistance claims",
+        "Comfort guarantees"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Relief",
+        "Safety",
+        "Being able to keep working"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "SERVICE_WORKERS_ON_FEET",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.6
+    },
+    {
+      "persona_id": "Z007",
+      "label": "Instagram-Aware Tastemaker",
+      "type": "realworld_cluster",
+      "demographic_context": "Mid 20s, lives in a stylish neighborhood, active on social platforms. Prefers online shopping to in-store visits.",
+      "primary_motivation": "Curate looks that photograph well and feel unique.",
+      "info_density_preference": "low",
+      "cognitive_style": "Visual-first; cares more about look and story than technical detail.",
+      "buying_barriers": [
+        "Uninspired product photography",
+        "No story behind the design"
+      ],
+      "trust_triggers": [
+        "Styled shoots",
+        "Designer notes",
+        "Social proof"
+      ],
+      "tone_voice_preference": "premium and elegant",
+      "emotional_drivers": [
+        "Admiration",
+        "Aesthetic satisfaction",
+        "Being on-trend"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.3
+    },
+    {
+      "persona_id": "Z008",
+      "label": "Conscious Capsule Wardrober",
+      "type": "realworld_cluster",
+      "demographic_context": "Early 30s to mid 40s, cares about sustainability and minimalism. Frequently reads product reviews.",
+      "primary_motivation": "Own fewer shoes that are versatile, durable, and ethically made.",
+      "info_density_preference": "high",
+      "cognitive_style": "Reflective; reads details about materials and lifecycle.",
+      "buying_barriers": [
+        "Vague sustainability claims",
+        "Flimsy construction"
+      ],
+      "trust_triggers": [
+        "Certifications",
+        "Manufacturing transparency",
+        "Longevity messaging"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Integrity",
+        "Coherence with values",
+        "Calm"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "ECO_MINDFUL_MINIMALISTS",
+          "weight": 0.392
+        },
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 0.608
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Z009",
+      "label": "Active Grandparent Walker",
+      "type": "realworld_cluster",
+      "demographic_context": "60s, retired or part-time, walks daily for health. Sticks with brands that deliver good experiences.",
+      "primary_motivation": "Stay mobile and comfortable to keep up with life and family.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Careful; reads key sections and reassurance text.",
+      "buying_barriers": [
+        "Fear of tripping or pain",
+        "Suspicion of overhyped claims"
+      ],
+      "trust_triggers": [
+        "Clear health benefits",
+        "Foot-support details",
+        "Simple copy"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Independence",
+        "Comfort",
+        "Connection with family"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "MATURE_COMFORT_SEEKERS",
+          "weight": 0.614
+        },
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.386
+        }
+      ],
+      "prevalence": 0.6
+    },
+    {
+      "persona_id": "Z010",
+      "label": "Injury-Recovery Planner",
+      "type": "realworld_cluster",
+      "demographic_context": "30s to 50s, has had foot or knee issues, advised to wear better shoes. Shares recommendations with friends.",
+      "primary_motivation": "Avoid re-injury and manage pain through better footwear.",
+      "info_density_preference": "high",
+      "cognitive_style": "Evidence-seeking; cares about expert input and clear design rationale.",
+      "buying_barriers": [
+        "Marketing with no evidence",
+        "Unclear support features"
+      ],
+      "trust_triggers": [
+        "Orthopedic or expert framing",
+        "Design explanations",
+        "Testimonials from similar cases"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Safety",
+        "Recovery",
+        "Long-term health"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "SNEAKERHEAD_YOUTH",
+          "weight": 0.308
+        },
+        {
+          "market_id": "MATURE_COMFORT_SEEKERS",
+          "weight": 0.185
+        },
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.506
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Z011",
+      "label": "Urban Desk-to-Dinner Professional",
+      "type": "realworld_cluster",
+      "demographic_context": "Late 20s to mid 30s, works in a downtown office, often goes out after work. Prefers online shopping to in-store visits.",
+      "primary_motivation": "Have one pair of shoes that works for the office, commute, and social evenings.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Skims headlines and benefits, then checks a few details if interested.",
+      "buying_barriers": [
+        "Shoes looking too casual for office",
+        "Shoes hurting after a full day"
+      ],
+      "trust_triggers": [
+        "Use-case storytelling",
+        "Comfort testimonials from similar professionals"
+      ],
+      "tone_voice_preference": "premium and elegant",
+      "emotional_drivers": [
+        "Feeling put-together",
+        "Seamless transitions through the day"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 0.555
+        },
+        {
+          "market_id": "URBAN_COMMUTERS",
+          "weight": 0.445
+        }
+      ],
+      "prevalence": 1.0
+    },
+    {
+      "persona_id": "Z012",
+      "label": "Weekend 5K Enthusiast",
+      "type": "realworld_cluster",
+      "demographic_context": "Early 30s, works full-time, runs a few times per week and does occasional races. Sticks with brands that deliver good experiences.",
+      "primary_motivation": "Stay fit and injury-free with reliable running shoes.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Balanced; reads a mix of specs and user reviews.",
+      "buying_barriers": [
+        "Worry shoes won\u2019t last or will cause pain",
+        "Overly complex tech explanations"
+      ],
+      "trust_triggers": [
+        "Clear support features",
+        "Evidence of durability",
+        "Runner stories"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Progress",
+        "Health",
+        "Consistency"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "PERFORMANCE_RUNNERS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Z013",
+      "label": "Value-First Family Planner",
+      "type": "realworld_cluster",
+      "demographic_context": "Mid 30s to 40s, parent of school-age kids, juggles busy schedule. Often buys after seeing ads on social media.",
+      "primary_motivation": "Buy shoes that last and feel good without straining the budget.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Practical; checks price, durability, and comfort guarantees.",
+      "buying_barriers": [
+        "High prices without clear benefits",
+        "Unknown brands with no reviews"
+      ],
+      "trust_triggers": [
+        "Value framing",
+        "Testimonials from other parents",
+        "Return policy clarity"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Security",
+        "Responsibility",
+        "Avoiding bad surprises"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "BUDGET_FAMILY_SHOPPERS",
+          "weight": 0.242
+        },
+        {
+          "market_id": "TRAIL_OUTDOOR_ADVENTURERS",
+          "weight": 0.758
+        }
+      ],
+      "prevalence": 1.0
+    },
+    {
+      "persona_id": "Z014",
+      "label": "Drop-Hunting Sneakerhead",
+      "type": "realworld_cluster",
+      "demographic_context": "Late teens to late 20s, follows sneaker news and social media closely. Prefers online shopping to in-store visits.",
+      "primary_motivation": "Get unique or limited sneakers that signal taste and status.",
+      "info_density_preference": "low",
+      "cognitive_style": "Fast, emotion-driven; scans visuals, story, and scarcity cues.",
+      "buying_barriers": [
+        "Generic design",
+        "No hype or story"
+      ],
+      "trust_triggers": [
+        "Collabs",
+        "Limited releases",
+        "Social proof"
+      ],
+      "tone_voice_preference": "energetic and motivational",
+      "emotional_drivers": [
+        "Belonging",
+        "Status",
+        "Self-expression"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "SNEAKERHEAD_YOUTH",
+          "weight": 0.519
+        },
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 0.377
+        },
+        {
+          "market_id": "MATURE_COMFORT_SEEKERS",
+          "weight": 0.105
+        }
+      ],
+      "prevalence": 0.2
+    },
+    {
+      "persona_id": "Z015",
+      "label": "Weekend Trail Explorer",
+      "type": "realworld_cluster",
+      "demographic_context": "Late 20s to 40s, works weekdays, spends some weekends hiking. Sticks with brands that deliver good experiences.",
+      "primary_motivation": "Stay safe and comfortable on trails without overbuying heavy gear.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Scenario-driven; imagines specific trail conditions.",
+      "buying_barriers": [
+        "Fear of slipping",
+        "Unclear use cases"
+      ],
+      "trust_triggers": [
+        "Trail photography",
+        "Grip and stability details"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Freedom",
+        "Adventure",
+        "Competence"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "TRAIL_OUTDOOR_ADVENTURERS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Z016",
+      "label": "Shift-Weary Server",
+      "type": "realworld_cluster",
+      "demographic_context": "20s to 40s, works long shifts in restaurants or cafes. Is cautious but willing to try new brands.",
+      "primary_motivation": "End shifts with less foot and back pain.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Empathy-driven; listens to stories from people like them.",
+      "buying_barriers": [
+        "Shoes that only feel good for first hour",
+        "Slippery soles"
+      ],
+      "trust_triggers": [
+        "Job-specific testimonials",
+        "Slip resistance claims",
+        "Comfort guarantees"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Relief",
+        "Safety",
+        "Being able to keep working"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "SERVICE_WORKERS_ON_FEET",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.6
+    },
+    {
+      "persona_id": "Z017",
+      "label": "Instagram-Aware Tastemaker",
+      "type": "realworld_cluster",
+      "demographic_context": "Mid 20s, lives in a stylish neighborhood, active on social platforms. Frequently reads product reviews.",
+      "primary_motivation": "Curate looks that photograph well and feel unique.",
+      "info_density_preference": "low",
+      "cognitive_style": "Visual-first; cares more about look and story than technical detail.",
+      "buying_barriers": [
+        "Uninspired product photography",
+        "No story behind the design"
+      ],
+      "trust_triggers": [
+        "Styled shoots",
+        "Designer notes",
+        "Social proof"
+      ],
+      "tone_voice_preference": "premium and elegant",
+      "emotional_drivers": [
+        "Admiration",
+        "Aesthetic satisfaction",
+        "Being on-trend"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 0.927
+        },
+        {
+          "market_id": "SERVICE_WORKERS_ON_FEET",
+          "weight": 0.073
+        }
+      ],
+      "prevalence": 0.3
+    },
+    {
+      "persona_id": "Z018",
+      "label": "Conscious Capsule Wardrober",
+      "type": "realworld_cluster",
+      "demographic_context": "Early 30s to mid 40s, cares about sustainability and minimalism. Is cautious but willing to try new brands.",
+      "primary_motivation": "Own fewer shoes that are versatile, durable, and ethically made.",
+      "info_density_preference": "high",
+      "cognitive_style": "Reflective; reads details about materials and lifecycle.",
+      "buying_barriers": [
+        "Vague sustainability claims",
+        "Flimsy construction"
+      ],
+      "trust_triggers": [
+        "Certifications",
+        "Manufacturing transparency",
+        "Longevity messaging"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Integrity",
+        "Coherence with values",
+        "Calm"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "ECO_MINDFUL_MINIMALISTS",
+          "weight": 0.638
+        },
+        {
+          "market_id": "URBAN_COMMUTERS",
+          "weight": 0.362
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Z019",
+      "label": "Active Grandparent Walker",
+      "type": "realworld_cluster",
+      "demographic_context": "60s, retired or part-time, walks daily for health. Sticks with brands that deliver good experiences.",
+      "primary_motivation": "Stay mobile and comfortable to keep up with life and family.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Careful; reads key sections and reassurance text.",
+      "buying_barriers": [
+        "Fear of tripping or pain",
+        "Suspicion of overhyped claims"
+      ],
+      "trust_triggers": [
+        "Clear health benefits",
+        "Foot-support details",
+        "Simple copy"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Independence",
+        "Comfort",
+        "Connection with family"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "MATURE_COMFORT_SEEKERS",
+          "weight": 0.459
+        },
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.541
+        }
+      ],
+      "prevalence": 0.6
+    },
+    {
+      "persona_id": "Z020",
+      "label": "Injury-Recovery Planner",
+      "type": "realworld_cluster",
+      "demographic_context": "30s to 50s, has had foot or knee issues, advised to wear better shoes. Shares recommendations with friends.",
+      "primary_motivation": "Avoid re-injury and manage pain through better footwear.",
+      "info_density_preference": "high",
+      "cognitive_style": "Evidence-seeking; cares about expert input and clear design rationale.",
+      "buying_barriers": [
+        "Marketing with no evidence",
+        "Unclear support features"
+      ],
+      "trust_triggers": [
+        "Orthopedic or expert framing",
+        "Design explanations",
+        "Testimonials from similar cases"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Safety",
+        "Recovery",
+        "Long-term health"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "MATURE_COMFORT_SEEKERS",
+          "weight": 0.55
+        },
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.45
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Z021",
+      "label": "Urban Desk-to-Dinner Professional",
+      "type": "realworld_cluster",
+      "demographic_context": "Late 20s to mid 30s, works in a downtown office, often goes out after work. Often buys after seeing ads on social media.",
+      "primary_motivation": "Have one pair of shoes that works for the office, commute, and social evenings.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Skims headlines and benefits, then checks a few details if interested.",
+      "buying_barriers": [
+        "Shoes looking too casual for office",
+        "Shoes hurting after a full day"
+      ],
+      "trust_triggers": [
+        "Use-case storytelling",
+        "Comfort testimonials from similar professionals"
+      ],
+      "tone_voice_preference": "premium and elegant",
+      "emotional_drivers": [
+        "Feeling put-together",
+        "Seamless transitions through the day"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 0.793
+        },
+        {
+          "market_id": "URBAN_COMMUTERS",
+          "weight": 0.207
+        }
+      ],
+      "prevalence": 1.0
+    },
+    {
+      "persona_id": "Z022",
+      "label": "Weekend 5K Enthusiast",
+      "type": "realworld_cluster",
+      "demographic_context": "Early 30s, works full-time, runs a few times per week and does occasional races. Often buys after seeing ads on social media.",
+      "primary_motivation": "Stay fit and injury-free with reliable running shoes.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Balanced; reads a mix of specs and user reviews.",
+      "buying_barriers": [
+        "Worry shoes won\u2019t last or will cause pain",
+        "Overly complex tech explanations"
+      ],
+      "trust_triggers": [
+        "Clear support features",
+        "Evidence of durability",
+        "Runner stories"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Progress",
+        "Health",
+        "Consistency"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "PERFORMANCE_RUNNERS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Z023",
+      "label": "Value-First Family Planner",
+      "type": "realworld_cluster",
+      "demographic_context": "Mid 30s to 40s, parent of school-age kids, juggles busy schedule. Shares recommendations with friends.",
+      "primary_motivation": "Buy shoes that last and feel good without straining the budget.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Practical; checks price, durability, and comfort guarantees.",
+      "buying_barriers": [
+        "High prices without clear benefits",
+        "Unknown brands with no reviews"
+      ],
+      "trust_triggers": [
+        "Value framing",
+        "Testimonials from other parents",
+        "Return policy clarity"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Security",
+        "Responsibility",
+        "Avoiding bad surprises"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "BUDGET_FAMILY_SHOPPERS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 1.0
+    },
+    {
+      "persona_id": "Z024",
+      "label": "Drop-Hunting Sneakerhead",
+      "type": "realworld_cluster",
+      "demographic_context": "Late teens to late 20s, follows sneaker news and social media closely. Frequently reads product reviews.",
+      "primary_motivation": "Get unique or limited sneakers that signal taste and status.",
+      "info_density_preference": "low",
+      "cognitive_style": "Fast, emotion-driven; scans visuals, story, and scarcity cues.",
+      "buying_barriers": [
+        "Generic design",
+        "No hype or story"
+      ],
+      "trust_triggers": [
+        "Collabs",
+        "Limited releases",
+        "Social proof"
+      ],
+      "tone_voice_preference": "energetic and motivational",
+      "emotional_drivers": [
+        "Belonging",
+        "Status",
+        "Self-expression"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "SNEAKERHEAD_YOUTH",
+          "weight": 0.74
+        },
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 0.066
+        },
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.194
+        }
+      ],
+      "prevalence": 0.2
+    },
+    {
+      "persona_id": "Z025",
+      "label": "Weekend Trail Explorer",
+      "type": "realworld_cluster",
+      "demographic_context": "Late 20s to 40s, works weekdays, spends some weekends hiking. Is cautious but willing to try new brands.",
+      "primary_motivation": "Stay safe and comfortable on trails without overbuying heavy gear.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Scenario-driven; imagines specific trail conditions.",
+      "buying_barriers": [
+        "Fear of slipping",
+        "Unclear use cases"
+      ],
+      "trust_triggers": [
+        "Trail photography",
+        "Grip and stability details"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Freedom",
+        "Adventure",
+        "Competence"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "TRAIL_OUTDOOR_ADVENTURERS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Z026",
+      "label": "Shift-Weary Server",
+      "type": "realworld_cluster",
+      "demographic_context": "20s to 40s, works long shifts in restaurants or cafes. Is cautious but willing to try new brands.",
+      "primary_motivation": "End shifts with less foot and back pain.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Empathy-driven; listens to stories from people like them.",
+      "buying_barriers": [
+        "Shoes that only feel good for first hour",
+        "Slippery soles"
+      ],
+      "trust_triggers": [
+        "Job-specific testimonials",
+        "Slip resistance claims",
+        "Comfort guarantees"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Relief",
+        "Safety",
+        "Being able to keep working"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "MATURE_COMFORT_SEEKERS",
+          "weight": 0.295
+        },
+        {
+          "market_id": "SERVICE_WORKERS_ON_FEET",
+          "weight": 0.705
+        }
+      ],
+      "prevalence": 0.6
+    },
+    {
+      "persona_id": "Z027",
+      "label": "Instagram-Aware Tastemaker",
+      "type": "realworld_cluster",
+      "demographic_context": "Mid 20s, lives in a stylish neighborhood, active on social platforms. Prefers online shopping to in-store visits.",
+      "primary_motivation": "Curate looks that photograph well and feel unique.",
+      "info_density_preference": "low",
+      "cognitive_style": "Visual-first; cares more about look and story than technical detail.",
+      "buying_barriers": [
+        "Uninspired product photography",
+        "No story behind the design"
+      ],
+      "trust_triggers": [
+        "Styled shoots",
+        "Designer notes",
+        "Social proof"
+      ],
+      "tone_voice_preference": "premium and elegant",
+      "emotional_drivers": [
+        "Admiration",
+        "Aesthetic satisfaction",
+        "Being on-trend"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.3
+    },
+    {
+      "persona_id": "Z028",
+      "label": "Conscious Capsule Wardrober",
+      "type": "realworld_cluster",
+      "demographic_context": "Early 30s to mid 40s, cares about sustainability and minimalism. Prefers online shopping to in-store visits.",
+      "primary_motivation": "Own fewer shoes that are versatile, durable, and ethically made.",
+      "info_density_preference": "high",
+      "cognitive_style": "Reflective; reads details about materials and lifecycle.",
+      "buying_barriers": [
+        "Vague sustainability claims",
+        "Flimsy construction"
+      ],
+      "trust_triggers": [
+        "Certifications",
+        "Manufacturing transparency",
+        "Longevity messaging"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Integrity",
+        "Coherence with values",
+        "Calm"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "ECO_MINDFUL_MINIMALISTS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Z029",
+      "label": "Active Grandparent Walker",
+      "type": "realworld_cluster",
+      "demographic_context": "60s, retired or part-time, walks daily for health. Sticks with brands that deliver good experiences.",
+      "primary_motivation": "Stay mobile and comfortable to keep up with life and family.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Careful; reads key sections and reassurance text.",
+      "buying_barriers": [
+        "Fear of tripping or pain",
+        "Suspicion of overhyped claims"
+      ],
+      "trust_triggers": [
+        "Clear health benefits",
+        "Foot-support details",
+        "Simple copy"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Independence",
+        "Comfort",
+        "Connection with family"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "SNEAKERHEAD_YOUTH",
+          "weight": 0.644
+        },
+        {
+          "market_id": "MATURE_COMFORT_SEEKERS",
+          "weight": 0.272
+        },
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.084
+        }
+      ],
+      "prevalence": 0.6
+    },
+    {
+      "persona_id": "Z030",
+      "label": "Injury-Recovery Planner",
+      "type": "realworld_cluster",
+      "demographic_context": "30s to 50s, has had foot or knee issues, advised to wear better shoes. Frequently reads product reviews.",
+      "primary_motivation": "Avoid re-injury and manage pain through better footwear.",
+      "info_density_preference": "high",
+      "cognitive_style": "Evidence-seeking; cares about expert input and clear design rationale.",
+      "buying_barriers": [
+        "Marketing with no evidence",
+        "Unclear support features"
+      ],
+      "trust_triggers": [
+        "Orthopedic or expert framing",
+        "Design explanations",
+        "Testimonials from similar cases"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Safety",
+        "Recovery",
+        "Long-term health"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "MATURE_COMFORT_SEEKERS",
+          "weight": 0.125
+        },
+        {
+          "market_id": "PERFORMANCE_RUNNERS",
+          "weight": 0.326
+        },
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.55
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Z031",
+      "label": "Urban Desk-to-Dinner Professional",
+      "type": "realworld_cluster",
+      "demographic_context": "Late 20s to mid 30s, works in a downtown office, often goes out after work. Often buys after seeing ads on social media.",
+      "primary_motivation": "Have one pair of shoes that works for the office, commute, and social evenings.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Skims headlines and benefits, then checks a few details if interested.",
+      "buying_barriers": [
+        "Shoes looking too casual for office",
+        "Shoes hurting after a full day"
+      ],
+      "trust_triggers": [
+        "Use-case storytelling",
+        "Comfort testimonials from similar professionals"
+      ],
+      "tone_voice_preference": "premium and elegant",
+      "emotional_drivers": [
+        "Feeling put-together",
+        "Seamless transitions through the day"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "SNEAKERHEAD_YOUTH",
+          "weight": 0.201
+        },
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 0.198
+        },
+        {
+          "market_id": "URBAN_COMMUTERS",
+          "weight": 0.601
+        }
+      ],
+      "prevalence": 1.0
+    },
+    {
+      "persona_id": "Z032",
+      "label": "Weekend 5K Enthusiast",
+      "type": "realworld_cluster",
+      "demographic_context": "Early 30s, works full-time, runs a few times per week and does occasional races. Shares recommendations with friends.",
+      "primary_motivation": "Stay fit and injury-free with reliable running shoes.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Balanced; reads a mix of specs and user reviews.",
+      "buying_barriers": [
+        "Worry shoes won\u2019t last or will cause pain",
+        "Overly complex tech explanations"
+      ],
+      "trust_triggers": [
+        "Clear support features",
+        "Evidence of durability",
+        "Runner stories"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Progress",
+        "Health",
+        "Consistency"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "PERFORMANCE_RUNNERS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Z033",
+      "label": "Value-First Family Planner",
+      "type": "realworld_cluster",
+      "demographic_context": "Mid 30s to 40s, parent of school-age kids, juggles busy schedule. Sticks with brands that deliver good experiences.",
+      "primary_motivation": "Buy shoes that last and feel good without straining the budget.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Practical; checks price, durability, and comfort guarantees.",
+      "buying_barriers": [
+        "High prices without clear benefits",
+        "Unknown brands with no reviews"
+      ],
+      "trust_triggers": [
+        "Value framing",
+        "Testimonials from other parents",
+        "Return policy clarity"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Security",
+        "Responsibility",
+        "Avoiding bad surprises"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "BUDGET_FAMILY_SHOPPERS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 1.0
+    },
+    {
+      "persona_id": "Z034",
+      "label": "Drop-Hunting Sneakerhead",
+      "type": "realworld_cluster",
+      "demographic_context": "Late teens to late 20s, follows sneaker news and social media closely. Frequently reads product reviews.",
+      "primary_motivation": "Get unique or limited sneakers that signal taste and status.",
+      "info_density_preference": "low",
+      "cognitive_style": "Fast, emotion-driven; scans visuals, story, and scarcity cues.",
+      "buying_barriers": [
+        "Generic design",
+        "No hype or story"
+      ],
+      "trust_triggers": [
+        "Collabs",
+        "Limited releases",
+        "Social proof"
+      ],
+      "tone_voice_preference": "energetic and motivational",
+      "emotional_drivers": [
+        "Belonging",
+        "Status",
+        "Self-expression"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "SNEAKERHEAD_YOUTH",
+          "weight": 0.457
+        },
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 0.543
+        }
+      ],
+      "prevalence": 0.2
+    },
+    {
+      "persona_id": "Z035",
+      "label": "Weekend Trail Explorer",
+      "type": "realworld_cluster",
+      "demographic_context": "Late 20s to 40s, works weekdays, spends some weekends hiking. Prefers online shopping to in-store visits.",
+      "primary_motivation": "Stay safe and comfortable on trails without overbuying heavy gear.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Scenario-driven; imagines specific trail conditions.",
+      "buying_barriers": [
+        "Fear of slipping",
+        "Unclear use cases"
+      ],
+      "trust_triggers": [
+        "Trail photography",
+        "Grip and stability details"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Freedom",
+        "Adventure",
+        "Competence"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "TRAIL_OUTDOOR_ADVENTURERS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Z036",
+      "label": "Shift-Weary Server",
+      "type": "realworld_cluster",
+      "demographic_context": "20s to 40s, works long shifts in restaurants or cafes. Frequently reads product reviews.",
+      "primary_motivation": "End shifts with less foot and back pain.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Empathy-driven; listens to stories from people like them.",
+      "buying_barriers": [
+        "Shoes that only feel good for first hour",
+        "Slippery soles"
+      ],
+      "trust_triggers": [
+        "Job-specific testimonials",
+        "Slip resistance claims",
+        "Comfort guarantees"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Relief",
+        "Safety",
+        "Being able to keep working"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "SERVICE_WORKERS_ON_FEET",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.6
+    },
+    {
+      "persona_id": "Z037",
+      "label": "Instagram-Aware Tastemaker",
+      "type": "realworld_cluster",
+      "demographic_context": "Mid 20s, lives in a stylish neighborhood, active on social platforms. Is cautious but willing to try new brands.",
+      "primary_motivation": "Curate looks that photograph well and feel unique.",
+      "info_density_preference": "low",
+      "cognitive_style": "Visual-first; cares more about look and story than technical detail.",
+      "buying_barriers": [
+        "Uninspired product photography",
+        "No story behind the design"
+      ],
+      "trust_triggers": [
+        "Styled shoots",
+        "Designer notes",
+        "Social proof"
+      ],
+      "tone_voice_preference": "premium and elegant",
+      "emotional_drivers": [
+        "Admiration",
+        "Aesthetic satisfaction",
+        "Being on-trend"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.3
+    },
+    {
+      "persona_id": "Z038",
+      "label": "Conscious Capsule Wardrober",
+      "type": "realworld_cluster",
+      "demographic_context": "Early 30s to mid 40s, cares about sustainability and minimalism. Often buys after seeing ads on social media.",
+      "primary_motivation": "Own fewer shoes that are versatile, durable, and ethically made.",
+      "info_density_preference": "high",
+      "cognitive_style": "Reflective; reads details about materials and lifecycle.",
+      "buying_barriers": [
+        "Vague sustainability claims",
+        "Flimsy construction"
+      ],
+      "trust_triggers": [
+        "Certifications",
+        "Manufacturing transparency",
+        "Longevity messaging"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Integrity",
+        "Coherence with values",
+        "Calm"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "ECO_MINDFUL_MINIMALISTS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Z039",
+      "label": "Active Grandparent Walker",
+      "type": "realworld_cluster",
+      "demographic_context": "60s, retired or part-time, walks daily for health. Prefers online shopping to in-store visits.",
+      "primary_motivation": "Stay mobile and comfortable to keep up with life and family.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Careful; reads key sections and reassurance text.",
+      "buying_barriers": [
+        "Fear of tripping or pain",
+        "Suspicion of overhyped claims"
+      ],
+      "trust_triggers": [
+        "Clear health benefits",
+        "Foot-support details",
+        "Simple copy"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Independence",
+        "Comfort",
+        "Connection with family"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "MATURE_COMFORT_SEEKERS",
+          "weight": 0.86
+        },
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.14
+        }
+      ],
+      "prevalence": 0.6
+    },
+    {
+      "persona_id": "Z040",
+      "label": "Injury-Recovery Planner",
+      "type": "realworld_cluster",
+      "demographic_context": "30s to 50s, has had foot or knee issues, advised to wear better shoes. Shares recommendations with friends.",
+      "primary_motivation": "Avoid re-injury and manage pain through better footwear.",
+      "info_density_preference": "high",
+      "cognitive_style": "Evidence-seeking; cares about expert input and clear design rationale.",
+      "buying_barriers": [
+        "Marketing with no evidence",
+        "Unclear support features"
+      ],
+      "trust_triggers": [
+        "Orthopedic or expert framing",
+        "Design explanations",
+        "Testimonials from similar cases"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Safety",
+        "Recovery",
+        "Long-term health"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "MATURE_COMFORT_SEEKERS",
+          "weight": 0.549
+        },
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.451
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Z041",
+      "label": "Urban Desk-to-Dinner Professional",
+      "type": "realworld_cluster",
+      "demographic_context": "Late 20s to mid 30s, works in a downtown office, often goes out after work. Shares recommendations with friends.",
+      "primary_motivation": "Have one pair of shoes that works for the office, commute, and social evenings.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Skims headlines and benefits, then checks a few details if interested.",
+      "buying_barriers": [
+        "Shoes looking too casual for office",
+        "Shoes hurting after a full day"
+      ],
+      "trust_triggers": [
+        "Use-case storytelling",
+        "Comfort testimonials from similar professionals"
+      ],
+      "tone_voice_preference": "premium and elegant",
+      "emotional_drivers": [
+        "Feeling put-together",
+        "Seamless transitions through the day"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 0.428
+        },
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.015
+        },
+        {
+          "market_id": "URBAN_COMMUTERS",
+          "weight": 0.557
+        }
+      ],
+      "prevalence": 1.0
+    },
+    {
+      "persona_id": "Z042",
+      "label": "Weekend 5K Enthusiast",
+      "type": "realworld_cluster",
+      "demographic_context": "Early 30s, works full-time, runs a few times per week and does occasional races. Prefers online shopping to in-store visits.",
+      "primary_motivation": "Stay fit and injury-free with reliable running shoes.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Balanced; reads a mix of specs and user reviews.",
+      "buying_barriers": [
+        "Worry shoes won\u2019t last or will cause pain",
+        "Overly complex tech explanations"
+      ],
+      "trust_triggers": [
+        "Clear support features",
+        "Evidence of durability",
+        "Runner stories"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Progress",
+        "Health",
+        "Consistency"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "PERFORMANCE_RUNNERS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Z043",
+      "label": "Value-First Family Planner",
+      "type": "realworld_cluster",
+      "demographic_context": "Mid 30s to 40s, parent of school-age kids, juggles busy schedule. Frequently reads product reviews.",
+      "primary_motivation": "Buy shoes that last and feel good without straining the budget.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Practical; checks price, durability, and comfort guarantees.",
+      "buying_barriers": [
+        "High prices without clear benefits",
+        "Unknown brands with no reviews"
+      ],
+      "trust_triggers": [
+        "Value framing",
+        "Testimonials from other parents",
+        "Return policy clarity"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Security",
+        "Responsibility",
+        "Avoiding bad surprises"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "BUDGET_FAMILY_SHOPPERS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 1.0
+    },
+    {
+      "persona_id": "Z044",
+      "label": "Drop-Hunting Sneakerhead",
+      "type": "realworld_cluster",
+      "demographic_context": "Late teens to late 20s, follows sneaker news and social media closely. Prefers online shopping to in-store visits.",
+      "primary_motivation": "Get unique or limited sneakers that signal taste and status.",
+      "info_density_preference": "low",
+      "cognitive_style": "Fast, emotion-driven; scans visuals, story, and scarcity cues.",
+      "buying_barriers": [
+        "Generic design",
+        "No hype or story"
+      ],
+      "trust_triggers": [
+        "Collabs",
+        "Limited releases",
+        "Social proof"
+      ],
+      "tone_voice_preference": "energetic and motivational",
+      "emotional_drivers": [
+        "Belonging",
+        "Status",
+        "Self-expression"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "SNEAKERHEAD_YOUTH",
+          "weight": 0.196
+        },
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 0.367
+        },
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.437
+        }
+      ],
+      "prevalence": 0.2
+    },
+    {
+      "persona_id": "Z045",
+      "label": "Weekend Trail Explorer",
+      "type": "realworld_cluster",
+      "demographic_context": "Late 20s to 40s, works weekdays, spends some weekends hiking. Often buys after seeing ads on social media.",
+      "primary_motivation": "Stay safe and comfortable on trails without overbuying heavy gear.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Scenario-driven; imagines specific trail conditions.",
+      "buying_barriers": [
+        "Fear of slipping",
+        "Unclear use cases"
+      ],
+      "trust_triggers": [
+        "Trail photography",
+        "Grip and stability details"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Freedom",
+        "Adventure",
+        "Competence"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "TRAIL_OUTDOOR_ADVENTURERS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Z046",
+      "label": "Shift-Weary Server",
+      "type": "realworld_cluster",
+      "demographic_context": "20s to 40s, works long shifts in restaurants or cafes. Sticks with brands that deliver good experiences.",
+      "primary_motivation": "End shifts with less foot and back pain.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Empathy-driven; listens to stories from people like them.",
+      "buying_barriers": [
+        "Shoes that only feel good for first hour",
+        "Slippery soles"
+      ],
+      "trust_triggers": [
+        "Job-specific testimonials",
+        "Slip resistance claims",
+        "Comfort guarantees"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Relief",
+        "Safety",
+        "Being able to keep working"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "BUDGET_FAMILY_SHOPPERS",
+          "weight": 0.322
+        },
+        {
+          "market_id": "SERVICE_WORKERS_ON_FEET",
+          "weight": 0.678
+        }
+      ],
+      "prevalence": 0.6
+    },
+    {
+      "persona_id": "Z047",
+      "label": "Instagram-Aware Tastemaker",
+      "type": "realworld_cluster",
+      "demographic_context": "Mid 20s, lives in a stylish neighborhood, active on social platforms. Prefers online shopping to in-store visits.",
+      "primary_motivation": "Curate looks that photograph well and feel unique.",
+      "info_density_preference": "low",
+      "cognitive_style": "Visual-first; cares more about look and story than technical detail.",
+      "buying_barriers": [
+        "Uninspired product photography",
+        "No story behind the design"
+      ],
+      "trust_triggers": [
+        "Styled shoots",
+        "Designer notes",
+        "Social proof"
+      ],
+      "tone_voice_preference": "premium and elegant",
+      "emotional_drivers": [
+        "Admiration",
+        "Aesthetic satisfaction",
+        "Being on-trend"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.3
+    },
+    {
+      "persona_id": "Z048",
+      "label": "Conscious Capsule Wardrober",
+      "type": "realworld_cluster",
+      "demographic_context": "Early 30s to mid 40s, cares about sustainability and minimalism. Is cautious but willing to try new brands.",
+      "primary_motivation": "Own fewer shoes that are versatile, durable, and ethically made.",
+      "info_density_preference": "high",
+      "cognitive_style": "Reflective; reads details about materials and lifecycle.",
+      "buying_barriers": [
+        "Vague sustainability claims",
+        "Flimsy construction"
+      ],
+      "trust_triggers": [
+        "Certifications",
+        "Manufacturing transparency",
+        "Longevity messaging"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Integrity",
+        "Coherence with values",
+        "Calm"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "ECO_MINDFUL_MINIMALISTS",
+          "weight": 0.493
+        },
+        {
+          "market_id": "PERFORMANCE_RUNNERS",
+          "weight": 0.507
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Z049",
+      "label": "Active Grandparent Walker",
+      "type": "realworld_cluster",
+      "demographic_context": "60s, retired or part-time, walks daily for health. Often buys after seeing ads on social media.",
+      "primary_motivation": "Stay mobile and comfortable to keep up with life and family.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Careful; reads key sections and reassurance text.",
+      "buying_barriers": [
+        "Fear of tripping or pain",
+        "Suspicion of overhyped claims"
+      ],
+      "trust_triggers": [
+        "Clear health benefits",
+        "Foot-support details",
+        "Simple copy"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Independence",
+        "Comfort",
+        "Connection with family"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "MATURE_COMFORT_SEEKERS",
+          "weight": 0.999
+        },
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.001
+        }
+      ],
+      "prevalence": 0.6
+    },
+    {
+      "persona_id": "Z050",
+      "label": "Injury-Recovery Planner",
+      "type": "realworld_cluster",
+      "demographic_context": "30s to 50s, has had foot or knee issues, advised to wear better shoes. Is cautious but willing to try new brands.",
+      "primary_motivation": "Avoid re-injury and manage pain through better footwear.",
+      "info_density_preference": "high",
+      "cognitive_style": "Evidence-seeking; cares about expert input and clear design rationale.",
+      "buying_barriers": [
+        "Marketing with no evidence",
+        "Unclear support features"
+      ],
+      "trust_triggers": [
+        "Orthopedic or expert framing",
+        "Design explanations",
+        "Testimonials from similar cases"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Safety",
+        "Recovery",
+        "Long-term health"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "MATURE_COMFORT_SEEKERS",
+          "weight": 0.095
+        },
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.905
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Z051",
+      "label": "Urban Desk-to-Dinner Professional",
+      "type": "realworld_cluster",
+      "demographic_context": "Late 20s to mid 30s, works in a downtown office, often goes out after work. Is cautious but willing to try new brands.",
+      "primary_motivation": "Have one pair of shoes that works for the office, commute, and social evenings.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Skims headlines and benefits, then checks a few details if interested.",
+      "buying_barriers": [
+        "Shoes looking too casual for office",
+        "Shoes hurting after a full day"
+      ],
+      "trust_triggers": [
+        "Use-case storytelling",
+        "Comfort testimonials from similar professionals"
+      ],
+      "tone_voice_preference": "premium and elegant",
+      "emotional_drivers": [
+        "Feeling put-together",
+        "Seamless transitions through the day"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 0.451
+        },
+        {
+          "market_id": "URBAN_COMMUTERS",
+          "weight": 0.549
+        }
+      ],
+      "prevalence": 1.0
+    },
+    {
+      "persona_id": "Z052",
+      "label": "Weekend 5K Enthusiast",
+      "type": "realworld_cluster",
+      "demographic_context": "Early 30s, works full-time, runs a few times per week and does occasional races. Frequently reads product reviews.",
+      "primary_motivation": "Stay fit and injury-free with reliable running shoes.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Balanced; reads a mix of specs and user reviews.",
+      "buying_barriers": [
+        "Worry shoes won\u2019t last or will cause pain",
+        "Overly complex tech explanations"
+      ],
+      "trust_triggers": [
+        "Clear support features",
+        "Evidence of durability",
+        "Runner stories"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Progress",
+        "Health",
+        "Consistency"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "BUDGET_FAMILY_SHOPPERS",
+          "weight": 0.679
+        },
+        {
+          "market_id": "PERFORMANCE_RUNNERS",
+          "weight": 0.321
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Z053",
+      "label": "Value-First Family Planner",
+      "type": "realworld_cluster",
+      "demographic_context": "Mid 30s to 40s, parent of school-age kids, juggles busy schedule. Sticks with brands that deliver good experiences.",
+      "primary_motivation": "Buy shoes that last and feel good without straining the budget.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Practical; checks price, durability, and comfort guarantees.",
+      "buying_barriers": [
+        "High prices without clear benefits",
+        "Unknown brands with no reviews"
+      ],
+      "trust_triggers": [
+        "Value framing",
+        "Testimonials from other parents",
+        "Return policy clarity"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Security",
+        "Responsibility",
+        "Avoiding bad surprises"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "BUDGET_FAMILY_SHOPPERS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 1.0
+    },
+    {
+      "persona_id": "Z054",
+      "label": "Drop-Hunting Sneakerhead",
+      "type": "realworld_cluster",
+      "demographic_context": "Late teens to late 20s, follows sneaker news and social media closely. Sticks with brands that deliver good experiences.",
+      "primary_motivation": "Get unique or limited sneakers that signal taste and status.",
+      "info_density_preference": "low",
+      "cognitive_style": "Fast, emotion-driven; scans visuals, story, and scarcity cues.",
+      "buying_barriers": [
+        "Generic design",
+        "No hype or story"
+      ],
+      "trust_triggers": [
+        "Collabs",
+        "Limited releases",
+        "Social proof"
+      ],
+      "tone_voice_preference": "energetic and motivational",
+      "emotional_drivers": [
+        "Belonging",
+        "Status",
+        "Self-expression"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "SNEAKERHEAD_YOUTH",
+          "weight": 0.602
+        },
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 0.398
+        }
+      ],
+      "prevalence": 0.2
+    },
+    {
+      "persona_id": "Z055",
+      "label": "Weekend Trail Explorer",
+      "type": "realworld_cluster",
+      "demographic_context": "Late 20s to 40s, works weekdays, spends some weekends hiking. Is cautious but willing to try new brands.",
+      "primary_motivation": "Stay safe and comfortable on trails without overbuying heavy gear.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Scenario-driven; imagines specific trail conditions.",
+      "buying_barriers": [
+        "Fear of slipping",
+        "Unclear use cases"
+      ],
+      "trust_triggers": [
+        "Trail photography",
+        "Grip and stability details"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Freedom",
+        "Adventure",
+        "Competence"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 0.086
+        },
+        {
+          "market_id": "TRAIL_OUTDOOR_ADVENTURERS",
+          "weight": 0.914
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Z056",
+      "label": "Shift-Weary Server",
+      "type": "realworld_cluster",
+      "demographic_context": "20s to 40s, works long shifts in restaurants or cafes. Shares recommendations with friends.",
+      "primary_motivation": "End shifts with less foot and back pain.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Empathy-driven; listens to stories from people like them.",
+      "buying_barriers": [
+        "Shoes that only feel good for first hour",
+        "Slippery soles"
+      ],
+      "trust_triggers": [
+        "Job-specific testimonials",
+        "Slip resistance claims",
+        "Comfort guarantees"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Relief",
+        "Safety",
+        "Being able to keep working"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "SERVICE_WORKERS_ON_FEET",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.6
+    },
+    {
+      "persona_id": "Z057",
+      "label": "Instagram-Aware Tastemaker",
+      "type": "realworld_cluster",
+      "demographic_context": "Mid 20s, lives in a stylish neighborhood, active on social platforms. Frequently reads product reviews.",
+      "primary_motivation": "Curate looks that photograph well and feel unique.",
+      "info_density_preference": "low",
+      "cognitive_style": "Visual-first; cares more about look and story than technical detail.",
+      "buying_barriers": [
+        "Uninspired product photography",
+        "No story behind the design"
+      ],
+      "trust_triggers": [
+        "Styled shoots",
+        "Designer notes",
+        "Social proof"
+      ],
+      "tone_voice_preference": "premium and elegant",
+      "emotional_drivers": [
+        "Admiration",
+        "Aesthetic satisfaction",
+        "Being on-trend"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.3
+    },
+    {
+      "persona_id": "Z058",
+      "label": "Conscious Capsule Wardrober",
+      "type": "realworld_cluster",
+      "demographic_context": "Early 30s to mid 40s, cares about sustainability and minimalism. Is cautious but willing to try new brands.",
+      "primary_motivation": "Own fewer shoes that are versatile, durable, and ethically made.",
+      "info_density_preference": "high",
+      "cognitive_style": "Reflective; reads details about materials and lifecycle.",
+      "buying_barriers": [
+        "Vague sustainability claims",
+        "Flimsy construction"
+      ],
+      "trust_triggers": [
+        "Certifications",
+        "Manufacturing transparency",
+        "Longevity messaging"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Integrity",
+        "Coherence with values",
+        "Calm"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "ECO_MINDFUL_MINIMALISTS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Z059",
+      "label": "Active Grandparent Walker",
+      "type": "realworld_cluster",
+      "demographic_context": "60s, retired or part-time, walks daily for health. Often buys after seeing ads on social media.",
+      "primary_motivation": "Stay mobile and comfortable to keep up with life and family.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Careful; reads key sections and reassurance text.",
+      "buying_barriers": [
+        "Fear of tripping or pain",
+        "Suspicion of overhyped claims"
+      ],
+      "trust_triggers": [
+        "Clear health benefits",
+        "Foot-support details",
+        "Simple copy"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Independence",
+        "Comfort",
+        "Connection with family"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "MATURE_COMFORT_SEEKERS",
+          "weight": 0.307
+        },
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.693
+        }
+      ],
+      "prevalence": 0.6
+    },
+    {
+      "persona_id": "Z060",
+      "label": "Injury-Recovery Planner",
+      "type": "realworld_cluster",
+      "demographic_context": "30s to 50s, has had foot or knee issues, advised to wear better shoes. Often buys after seeing ads on social media.",
+      "primary_motivation": "Avoid re-injury and manage pain through better footwear.",
+      "info_density_preference": "high",
+      "cognitive_style": "Evidence-seeking; cares about expert input and clear design rationale.",
+      "buying_barriers": [
+        "Marketing with no evidence",
+        "Unclear support features"
+      ],
+      "trust_triggers": [
+        "Orthopedic or expert framing",
+        "Design explanations",
+        "Testimonials from similar cases"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Safety",
+        "Recovery",
+        "Long-term health"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "MATURE_COMFORT_SEEKERS",
+          "weight": 0.366
+        },
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.634
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Z061",
+      "label": "Urban Desk-to-Dinner Professional",
+      "type": "realworld_cluster",
+      "demographic_context": "Late 20s to mid 30s, works in a downtown office, often goes out after work. Shares recommendations with friends.",
+      "primary_motivation": "Have one pair of shoes that works for the office, commute, and social evenings.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Skims headlines and benefits, then checks a few details if interested.",
+      "buying_barriers": [
+        "Shoes looking too casual for office",
+        "Shoes hurting after a full day"
+      ],
+      "trust_triggers": [
+        "Use-case storytelling",
+        "Comfort testimonials from similar professionals"
+      ],
+      "tone_voice_preference": "premium and elegant",
+      "emotional_drivers": [
+        "Feeling put-together",
+        "Seamless transitions through the day"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 0.301
+        },
+        {
+          "market_id": "URBAN_COMMUTERS",
+          "weight": 0.699
+        }
+      ],
+      "prevalence": 1.0
+    },
+    {
+      "persona_id": "Z062",
+      "label": "Weekend 5K Enthusiast",
+      "type": "realworld_cluster",
+      "demographic_context": "Early 30s, works full-time, runs a few times per week and does occasional races. Prefers online shopping to in-store visits.",
+      "primary_motivation": "Stay fit and injury-free with reliable running shoes.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Balanced; reads a mix of specs and user reviews.",
+      "buying_barriers": [
+        "Worry shoes won\u2019t last or will cause pain",
+        "Overly complex tech explanations"
+      ],
+      "trust_triggers": [
+        "Clear support features",
+        "Evidence of durability",
+        "Runner stories"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Progress",
+        "Health",
+        "Consistency"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "PERFORMANCE_RUNNERS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Z063",
+      "label": "Value-First Family Planner",
+      "type": "realworld_cluster",
+      "demographic_context": "Mid 30s to 40s, parent of school-age kids, juggles busy schedule. Prefers online shopping to in-store visits.",
+      "primary_motivation": "Buy shoes that last and feel good without straining the budget.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Practical; checks price, durability, and comfort guarantees.",
+      "buying_barriers": [
+        "High prices without clear benefits",
+        "Unknown brands with no reviews"
+      ],
+      "trust_triggers": [
+        "Value framing",
+        "Testimonials from other parents",
+        "Return policy clarity"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Security",
+        "Responsibility",
+        "Avoiding bad surprises"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "BUDGET_FAMILY_SHOPPERS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 1.0
+    },
+    {
+      "persona_id": "Z064",
+      "label": "Drop-Hunting Sneakerhead",
+      "type": "realworld_cluster",
+      "demographic_context": "Late teens to late 20s, follows sneaker news and social media closely. Sticks with brands that deliver good experiences.",
+      "primary_motivation": "Get unique or limited sneakers that signal taste and status.",
+      "info_density_preference": "low",
+      "cognitive_style": "Fast, emotion-driven; scans visuals, story, and scarcity cues.",
+      "buying_barriers": [
+        "Generic design",
+        "No hype or story"
+      ],
+      "trust_triggers": [
+        "Collabs",
+        "Limited releases",
+        "Social proof"
+      ],
+      "tone_voice_preference": "energetic and motivational",
+      "emotional_drivers": [
+        "Belonging",
+        "Status",
+        "Self-expression"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "SNEAKERHEAD_YOUTH",
+          "weight": 0.216
+        },
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 0.784
+        }
+      ],
+      "prevalence": 0.2
+    },
+    {
+      "persona_id": "Z065",
+      "label": "Weekend Trail Explorer",
+      "type": "realworld_cluster",
+      "demographic_context": "Late 20s to 40s, works weekdays, spends some weekends hiking. Prefers online shopping to in-store visits.",
+      "primary_motivation": "Stay safe and comfortable on trails without overbuying heavy gear.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Scenario-driven; imagines specific trail conditions.",
+      "buying_barriers": [
+        "Fear of slipping",
+        "Unclear use cases"
+      ],
+      "trust_triggers": [
+        "Trail photography",
+        "Grip and stability details"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Freedom",
+        "Adventure",
+        "Competence"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "TRAIL_OUTDOOR_ADVENTURERS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Z066",
+      "label": "Shift-Weary Server",
+      "type": "realworld_cluster",
+      "demographic_context": "20s to 40s, works long shifts in restaurants or cafes. Often buys after seeing ads on social media.",
+      "primary_motivation": "End shifts with less foot and back pain.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Empathy-driven; listens to stories from people like them.",
+      "buying_barriers": [
+        "Shoes that only feel good for first hour",
+        "Slippery soles"
+      ],
+      "trust_triggers": [
+        "Job-specific testimonials",
+        "Slip resistance claims",
+        "Comfort guarantees"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Relief",
+        "Safety",
+        "Being able to keep working"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "SERVICE_WORKERS_ON_FEET",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.6
+    },
+    {
+      "persona_id": "Z067",
+      "label": "Instagram-Aware Tastemaker",
+      "type": "realworld_cluster",
+      "demographic_context": "Mid 20s, lives in a stylish neighborhood, active on social platforms. Frequently reads product reviews.",
+      "primary_motivation": "Curate looks that photograph well and feel unique.",
+      "info_density_preference": "low",
+      "cognitive_style": "Visual-first; cares more about look and story than technical detail.",
+      "buying_barriers": [
+        "Uninspired product photography",
+        "No story behind the design"
+      ],
+      "trust_triggers": [
+        "Styled shoots",
+        "Designer notes",
+        "Social proof"
+      ],
+      "tone_voice_preference": "premium and elegant",
+      "emotional_drivers": [
+        "Admiration",
+        "Aesthetic satisfaction",
+        "Being on-trend"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.3
+    },
+    {
+      "persona_id": "Z068",
+      "label": "Conscious Capsule Wardrober",
+      "type": "realworld_cluster",
+      "demographic_context": "Early 30s to mid 40s, cares about sustainability and minimalism. Often buys after seeing ads on social media.",
+      "primary_motivation": "Own fewer shoes that are versatile, durable, and ethically made.",
+      "info_density_preference": "high",
+      "cognitive_style": "Reflective; reads details about materials and lifecycle.",
+      "buying_barriers": [
+        "Vague sustainability claims",
+        "Flimsy construction"
+      ],
+      "trust_triggers": [
+        "Certifications",
+        "Manufacturing transparency",
+        "Longevity messaging"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Integrity",
+        "Coherence with values",
+        "Calm"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "ECO_MINDFUL_MINIMALISTS",
+          "weight": 0.055
+        },
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 0.945
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Z069",
+      "label": "Active Grandparent Walker",
+      "type": "realworld_cluster",
+      "demographic_context": "60s, retired or part-time, walks daily for health. Sticks with brands that deliver good experiences.",
+      "primary_motivation": "Stay mobile and comfortable to keep up with life and family.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Careful; reads key sections and reassurance text.",
+      "buying_barriers": [
+        "Fear of tripping or pain",
+        "Suspicion of overhyped claims"
+      ],
+      "trust_triggers": [
+        "Clear health benefits",
+        "Foot-support details",
+        "Simple copy"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Independence",
+        "Comfort",
+        "Connection with family"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "MATURE_COMFORT_SEEKERS",
+          "weight": 0.278
+        },
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.722
+        }
+      ],
+      "prevalence": 0.6
+    },
+    {
+      "persona_id": "Z070",
+      "label": "Injury-Recovery Planner",
+      "type": "realworld_cluster",
+      "demographic_context": "30s to 50s, has had foot or knee issues, advised to wear better shoes. Sticks with brands that deliver good experiences.",
+      "primary_motivation": "Avoid re-injury and manage pain through better footwear.",
+      "info_density_preference": "high",
+      "cognitive_style": "Evidence-seeking; cares about expert input and clear design rationale.",
+      "buying_barriers": [
+        "Marketing with no evidence",
+        "Unclear support features"
+      ],
+      "trust_triggers": [
+        "Orthopedic or expert framing",
+        "Design explanations",
+        "Testimonials from similar cases"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Safety",
+        "Recovery",
+        "Long-term health"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "MATURE_COMFORT_SEEKERS",
+          "weight": 0.93
+        },
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.07
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Z071",
+      "label": "Urban Desk-to-Dinner Professional",
+      "type": "realworld_cluster",
+      "demographic_context": "Late 20s to mid 30s, works in a downtown office, often goes out after work. Is cautious but willing to try new brands.",
+      "primary_motivation": "Have one pair of shoes that works for the office, commute, and social evenings.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Skims headlines and benefits, then checks a few details if interested.",
+      "buying_barriers": [
+        "Shoes looking too casual for office",
+        "Shoes hurting after a full day"
+      ],
+      "trust_triggers": [
+        "Use-case storytelling",
+        "Comfort testimonials from similar professionals"
+      ],
+      "tone_voice_preference": "premium and elegant",
+      "emotional_drivers": [
+        "Feeling put-together",
+        "Seamless transitions through the day"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 0.768
+        },
+        {
+          "market_id": "URBAN_COMMUTERS",
+          "weight": 0.232
+        }
+      ],
+      "prevalence": 1.0
+    },
+    {
+      "persona_id": "Z072",
+      "label": "Weekend 5K Enthusiast",
+      "type": "realworld_cluster",
+      "demographic_context": "Early 30s, works full-time, runs a few times per week and does occasional races. Often buys after seeing ads on social media.",
+      "primary_motivation": "Stay fit and injury-free with reliable running shoes.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Balanced; reads a mix of specs and user reviews.",
+      "buying_barriers": [
+        "Worry shoes won\u2019t last or will cause pain",
+        "Overly complex tech explanations"
+      ],
+      "trust_triggers": [
+        "Clear support features",
+        "Evidence of durability",
+        "Runner stories"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Progress",
+        "Health",
+        "Consistency"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "ECO_MINDFUL_MINIMALISTS",
+          "weight": 0.096
+        },
+        {
+          "market_id": "PERFORMANCE_RUNNERS",
+          "weight": 0.904
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Z073",
+      "label": "Value-First Family Planner",
+      "type": "realworld_cluster",
+      "demographic_context": "Mid 30s to 40s, parent of school-age kids, juggles busy schedule. Sticks with brands that deliver good experiences.",
+      "primary_motivation": "Buy shoes that last and feel good without straining the budget.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Practical; checks price, durability, and comfort guarantees.",
+      "buying_barriers": [
+        "High prices without clear benefits",
+        "Unknown brands with no reviews"
+      ],
+      "trust_triggers": [
+        "Value framing",
+        "Testimonials from other parents",
+        "Return policy clarity"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Security",
+        "Responsibility",
+        "Avoiding bad surprises"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "BUDGET_FAMILY_SHOPPERS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 1.0
+    },
+    {
+      "persona_id": "Z074",
+      "label": "Drop-Hunting Sneakerhead",
+      "type": "realworld_cluster",
+      "demographic_context": "Late teens to late 20s, follows sneaker news and social media closely. Prefers online shopping to in-store visits.",
+      "primary_motivation": "Get unique or limited sneakers that signal taste and status.",
+      "info_density_preference": "low",
+      "cognitive_style": "Fast, emotion-driven; scans visuals, story, and scarcity cues.",
+      "buying_barriers": [
+        "Generic design",
+        "No hype or story"
+      ],
+      "trust_triggers": [
+        "Collabs",
+        "Limited releases",
+        "Social proof"
+      ],
+      "tone_voice_preference": "energetic and motivational",
+      "emotional_drivers": [
+        "Belonging",
+        "Status",
+        "Self-expression"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "SNEAKERHEAD_YOUTH",
+          "weight": 0.516
+        },
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 0.484
+        }
+      ],
+      "prevalence": 0.2
+    },
+    {
+      "persona_id": "Z075",
+      "label": "Weekend Trail Explorer",
+      "type": "realworld_cluster",
+      "demographic_context": "Late 20s to 40s, works weekdays, spends some weekends hiking. Prefers online shopping to in-store visits.",
+      "primary_motivation": "Stay safe and comfortable on trails without overbuying heavy gear.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Scenario-driven; imagines specific trail conditions.",
+      "buying_barriers": [
+        "Fear of slipping",
+        "Unclear use cases"
+      ],
+      "trust_triggers": [
+        "Trail photography",
+        "Grip and stability details"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Freedom",
+        "Adventure",
+        "Competence"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "TRAIL_OUTDOOR_ADVENTURERS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Z076",
+      "label": "Shift-Weary Server",
+      "type": "realworld_cluster",
+      "demographic_context": "20s to 40s, works long shifts in restaurants or cafes. Often buys after seeing ads on social media.",
+      "primary_motivation": "End shifts with less foot and back pain.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Empathy-driven; listens to stories from people like them.",
+      "buying_barriers": [
+        "Shoes that only feel good for first hour",
+        "Slippery soles"
+      ],
+      "trust_triggers": [
+        "Job-specific testimonials",
+        "Slip resistance claims",
+        "Comfort guarantees"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Relief",
+        "Safety",
+        "Being able to keep working"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "SERVICE_WORKERS_ON_FEET",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.6
+    },
+    {
+      "persona_id": "Z077",
+      "label": "Instagram-Aware Tastemaker",
+      "type": "realworld_cluster",
+      "demographic_context": "Mid 20s, lives in a stylish neighborhood, active on social platforms. Often buys after seeing ads on social media.",
+      "primary_motivation": "Curate looks that photograph well and feel unique.",
+      "info_density_preference": "low",
+      "cognitive_style": "Visual-first; cares more about look and story than technical detail.",
+      "buying_barriers": [
+        "Uninspired product photography",
+        "No story behind the design"
+      ],
+      "trust_triggers": [
+        "Styled shoots",
+        "Designer notes",
+        "Social proof"
+      ],
+      "tone_voice_preference": "premium and elegant",
+      "emotional_drivers": [
+        "Admiration",
+        "Aesthetic satisfaction",
+        "Being on-trend"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.3
+    },
+    {
+      "persona_id": "Z078",
+      "label": "Conscious Capsule Wardrober",
+      "type": "realworld_cluster",
+      "demographic_context": "Early 30s to mid 40s, cares about sustainability and minimalism. Shares recommendations with friends.",
+      "primary_motivation": "Own fewer shoes that are versatile, durable, and ethically made.",
+      "info_density_preference": "high",
+      "cognitive_style": "Reflective; reads details about materials and lifecycle.",
+      "buying_barriers": [
+        "Vague sustainability claims",
+        "Flimsy construction"
+      ],
+      "trust_triggers": [
+        "Certifications",
+        "Manufacturing transparency",
+        "Longevity messaging"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Integrity",
+        "Coherence with values",
+        "Calm"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "ECO_MINDFUL_MINIMALISTS",
+          "weight": 0.572
+        },
+        {
+          "market_id": "TRAIL_OUTDOOR_ADVENTURERS",
+          "weight": 0.428
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Z079",
+      "label": "Active Grandparent Walker",
+      "type": "realworld_cluster",
+      "demographic_context": "60s, retired or part-time, walks daily for health. Often buys after seeing ads on social media.",
+      "primary_motivation": "Stay mobile and comfortable to keep up with life and family.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Careful; reads key sections and reassurance text.",
+      "buying_barriers": [
+        "Fear of tripping or pain",
+        "Suspicion of overhyped claims"
+      ],
+      "trust_triggers": [
+        "Clear health benefits",
+        "Foot-support details",
+        "Simple copy"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Independence",
+        "Comfort",
+        "Connection with family"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "MATURE_COMFORT_SEEKERS",
+          "weight": 0.519
+        },
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.481
+        }
+      ],
+      "prevalence": 0.6
+    },
+    {
+      "persona_id": "Z080",
+      "label": "Injury-Recovery Planner",
+      "type": "realworld_cluster",
+      "demographic_context": "30s to 50s, has had foot or knee issues, advised to wear better shoes. Shares recommendations with friends.",
+      "primary_motivation": "Avoid re-injury and manage pain through better footwear.",
+      "info_density_preference": "high",
+      "cognitive_style": "Evidence-seeking; cares about expert input and clear design rationale.",
+      "buying_barriers": [
+        "Marketing with no evidence",
+        "Unclear support features"
+      ],
+      "trust_triggers": [
+        "Orthopedic or expert framing",
+        "Design explanations",
+        "Testimonials from similar cases"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Safety",
+        "Recovery",
+        "Long-term health"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "MATURE_COMFORT_SEEKERS",
+          "weight": 0.434
+        },
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.566
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Z081",
+      "label": "Urban Desk-to-Dinner Professional",
+      "type": "realworld_cluster",
+      "demographic_context": "Late 20s to mid 30s, works in a downtown office, often goes out after work. Shares recommendations with friends.",
+      "primary_motivation": "Have one pair of shoes that works for the office, commute, and social evenings.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Skims headlines and benefits, then checks a few details if interested.",
+      "buying_barriers": [
+        "Shoes looking too casual for office",
+        "Shoes hurting after a full day"
+      ],
+      "trust_triggers": [
+        "Use-case storytelling",
+        "Comfort testimonials from similar professionals"
+      ],
+      "tone_voice_preference": "premium and elegant",
+      "emotional_drivers": [
+        "Feeling put-together",
+        "Seamless transitions through the day"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 0.135
+        },
+        {
+          "market_id": "URBAN_COMMUTERS",
+          "weight": 0.865
+        }
+      ],
+      "prevalence": 1.0
+    },
+    {
+      "persona_id": "Z082",
+      "label": "Weekend 5K Enthusiast",
+      "type": "realworld_cluster",
+      "demographic_context": "Early 30s, works full-time, runs a few times per week and does occasional races. Often buys after seeing ads on social media.",
+      "primary_motivation": "Stay fit and injury-free with reliable running shoes.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Balanced; reads a mix of specs and user reviews.",
+      "buying_barriers": [
+        "Worry shoes won\u2019t last or will cause pain",
+        "Overly complex tech explanations"
+      ],
+      "trust_triggers": [
+        "Clear support features",
+        "Evidence of durability",
+        "Runner stories"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Progress",
+        "Health",
+        "Consistency"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "MATURE_COMFORT_SEEKERS",
+          "weight": 0.377
+        },
+        {
+          "market_id": "PERFORMANCE_RUNNERS",
+          "weight": 0.623
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Z083",
+      "label": "Value-First Family Planner",
+      "type": "realworld_cluster",
+      "demographic_context": "Mid 30s to 40s, parent of school-age kids, juggles busy schedule. Frequently reads product reviews.",
+      "primary_motivation": "Buy shoes that last and feel good without straining the budget.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Practical; checks price, durability, and comfort guarantees.",
+      "buying_barriers": [
+        "High prices without clear benefits",
+        "Unknown brands with no reviews"
+      ],
+      "trust_triggers": [
+        "Value framing",
+        "Testimonials from other parents",
+        "Return policy clarity"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Security",
+        "Responsibility",
+        "Avoiding bad surprises"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "BUDGET_FAMILY_SHOPPERS",
+          "weight": 0.614
+        },
+        {
+          "market_id": "PERFORMANCE_RUNNERS",
+          "weight": 0.386
+        }
+      ],
+      "prevalence": 1.0
+    },
+    {
+      "persona_id": "Z084",
+      "label": "Drop-Hunting Sneakerhead",
+      "type": "realworld_cluster",
+      "demographic_context": "Late teens to late 20s, follows sneaker news and social media closely. Sticks with brands that deliver good experiences.",
+      "primary_motivation": "Get unique or limited sneakers that signal taste and status.",
+      "info_density_preference": "low",
+      "cognitive_style": "Fast, emotion-driven; scans visuals, story, and scarcity cues.",
+      "buying_barriers": [
+        "Generic design",
+        "No hype or story"
+      ],
+      "trust_triggers": [
+        "Collabs",
+        "Limited releases",
+        "Social proof"
+      ],
+      "tone_voice_preference": "energetic and motivational",
+      "emotional_drivers": [
+        "Belonging",
+        "Status",
+        "Self-expression"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "SNEAKERHEAD_YOUTH",
+          "weight": 0.167
+        },
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 0.537
+        },
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.296
+        }
+      ],
+      "prevalence": 0.2
+    },
+    {
+      "persona_id": "Z085",
+      "label": "Weekend Trail Explorer",
+      "type": "realworld_cluster",
+      "demographic_context": "Late 20s to 40s, works weekdays, spends some weekends hiking. Prefers online shopping to in-store visits.",
+      "primary_motivation": "Stay safe and comfortable on trails without overbuying heavy gear.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Scenario-driven; imagines specific trail conditions.",
+      "buying_barriers": [
+        "Fear of slipping",
+        "Unclear use cases"
+      ],
+      "trust_triggers": [
+        "Trail photography",
+        "Grip and stability details"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Freedom",
+        "Adventure",
+        "Competence"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "TRAIL_OUTDOOR_ADVENTURERS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Z086",
+      "label": "Shift-Weary Server",
+      "type": "realworld_cluster",
+      "demographic_context": "20s to 40s, works long shifts in restaurants or cafes. Often buys after seeing ads on social media.",
+      "primary_motivation": "End shifts with less foot and back pain.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Empathy-driven; listens to stories from people like them.",
+      "buying_barriers": [
+        "Shoes that only feel good for first hour",
+        "Slippery soles"
+      ],
+      "trust_triggers": [
+        "Job-specific testimonials",
+        "Slip resistance claims",
+        "Comfort guarantees"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Relief",
+        "Safety",
+        "Being able to keep working"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "SERVICE_WORKERS_ON_FEET",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.6
+    },
+    {
+      "persona_id": "Z087",
+      "label": "Instagram-Aware Tastemaker",
+      "type": "realworld_cluster",
+      "demographic_context": "Mid 20s, lives in a stylish neighborhood, active on social platforms. Frequently reads product reviews.",
+      "primary_motivation": "Curate looks that photograph well and feel unique.",
+      "info_density_preference": "low",
+      "cognitive_style": "Visual-first; cares more about look and story than technical detail.",
+      "buying_barriers": [
+        "Uninspired product photography",
+        "No story behind the design"
+      ],
+      "trust_triggers": [
+        "Styled shoots",
+        "Designer notes",
+        "Social proof"
+      ],
+      "tone_voice_preference": "premium and elegant",
+      "emotional_drivers": [
+        "Admiration",
+        "Aesthetic satisfaction",
+        "Being on-trend"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 0.768
+        },
+        {
+          "market_id": "SERVICE_WORKERS_ON_FEET",
+          "weight": 0.232
+        }
+      ],
+      "prevalence": 0.3
+    },
+    {
+      "persona_id": "Z088",
+      "label": "Conscious Capsule Wardrober",
+      "type": "realworld_cluster",
+      "demographic_context": "Early 30s to mid 40s, cares about sustainability and minimalism. Often buys after seeing ads on social media.",
+      "primary_motivation": "Own fewer shoes that are versatile, durable, and ethically made.",
+      "info_density_preference": "high",
+      "cognitive_style": "Reflective; reads details about materials and lifecycle.",
+      "buying_barriers": [
+        "Vague sustainability claims",
+        "Flimsy construction"
+      ],
+      "trust_triggers": [
+        "Certifications",
+        "Manufacturing transparency",
+        "Longevity messaging"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Integrity",
+        "Coherence with values",
+        "Calm"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "ECO_MINDFUL_MINIMALISTS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Z089",
+      "label": "Active Grandparent Walker",
+      "type": "realworld_cluster",
+      "demographic_context": "60s, retired or part-time, walks daily for health. Prefers online shopping to in-store visits.",
+      "primary_motivation": "Stay mobile and comfortable to keep up with life and family.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Careful; reads key sections and reassurance text.",
+      "buying_barriers": [
+        "Fear of tripping or pain",
+        "Suspicion of overhyped claims"
+      ],
+      "trust_triggers": [
+        "Clear health benefits",
+        "Foot-support details",
+        "Simple copy"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Independence",
+        "Comfort",
+        "Connection with family"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "MATURE_COMFORT_SEEKERS",
+          "weight": 0.636
+        },
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 0.08
+        },
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.284
+        }
+      ],
+      "prevalence": 0.6
+    },
+    {
+      "persona_id": "Z090",
+      "label": "Injury-Recovery Planner",
+      "type": "realworld_cluster",
+      "demographic_context": "30s to 50s, has had foot or knee issues, advised to wear better shoes. Prefers online shopping to in-store visits.",
+      "primary_motivation": "Avoid re-injury and manage pain through better footwear.",
+      "info_density_preference": "high",
+      "cognitive_style": "Evidence-seeking; cares about expert input and clear design rationale.",
+      "buying_barriers": [
+        "Marketing with no evidence",
+        "Unclear support features"
+      ],
+      "trust_triggers": [
+        "Orthopedic or expert framing",
+        "Design explanations",
+        "Testimonials from similar cases"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Safety",
+        "Recovery",
+        "Long-term health"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "MATURE_COMFORT_SEEKERS",
+          "weight": 0.771
+        },
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.229
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Z091",
+      "label": "Urban Desk-to-Dinner Professional",
+      "type": "realworld_cluster",
+      "demographic_context": "Late 20s to mid 30s, works in a downtown office, often goes out after work. Sticks with brands that deliver good experiences.",
+      "primary_motivation": "Have one pair of shoes that works for the office, commute, and social evenings.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Skims headlines and benefits, then checks a few details if interested.",
+      "buying_barriers": [
+        "Shoes looking too casual for office",
+        "Shoes hurting after a full day"
+      ],
+      "trust_triggers": [
+        "Use-case storytelling",
+        "Comfort testimonials from similar professionals"
+      ],
+      "tone_voice_preference": "premium and elegant",
+      "emotional_drivers": [
+        "Feeling put-together",
+        "Seamless transitions through the day"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 0.009
+        },
+        {
+          "market_id": "URBAN_COMMUTERS",
+          "weight": 0.991
+        }
+      ],
+      "prevalence": 1.0
+    },
+    {
+      "persona_id": "Z092",
+      "label": "Weekend 5K Enthusiast",
+      "type": "realworld_cluster",
+      "demographic_context": "Early 30s, works full-time, runs a few times per week and does occasional races. Sticks with brands that deliver good experiences.",
+      "primary_motivation": "Stay fit and injury-free with reliable running shoes.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Balanced; reads a mix of specs and user reviews.",
+      "buying_barriers": [
+        "Worry shoes won\u2019t last or will cause pain",
+        "Overly complex tech explanations"
+      ],
+      "trust_triggers": [
+        "Clear support features",
+        "Evidence of durability",
+        "Runner stories"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Progress",
+        "Health",
+        "Consistency"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "PERFORMANCE_RUNNERS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Z093",
+      "label": "Value-First Family Planner",
+      "type": "realworld_cluster",
+      "demographic_context": "Mid 30s to 40s, parent of school-age kids, juggles busy schedule. Sticks with brands that deliver good experiences.",
+      "primary_motivation": "Buy shoes that last and feel good without straining the budget.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Practical; checks price, durability, and comfort guarantees.",
+      "buying_barriers": [
+        "High prices without clear benefits",
+        "Unknown brands with no reviews"
+      ],
+      "trust_triggers": [
+        "Value framing",
+        "Testimonials from other parents",
+        "Return policy clarity"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Security",
+        "Responsibility",
+        "Avoiding bad surprises"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "BUDGET_FAMILY_SHOPPERS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 1.0
+    },
+    {
+      "persona_id": "Z094",
+      "label": "Drop-Hunting Sneakerhead",
+      "type": "realworld_cluster",
+      "demographic_context": "Late teens to late 20s, follows sneaker news and social media closely. Prefers online shopping to in-store visits.",
+      "primary_motivation": "Get unique or limited sneakers that signal taste and status.",
+      "info_density_preference": "low",
+      "cognitive_style": "Fast, emotion-driven; scans visuals, story, and scarcity cues.",
+      "buying_barriers": [
+        "Generic design",
+        "No hype or story"
+      ],
+      "trust_triggers": [
+        "Collabs",
+        "Limited releases",
+        "Social proof"
+      ],
+      "tone_voice_preference": "energetic and motivational",
+      "emotional_drivers": [
+        "Belonging",
+        "Status",
+        "Self-expression"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "SNEAKERHEAD_YOUTH",
+          "weight": 0.223
+        },
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 0.777
+        }
+      ],
+      "prevalence": 0.2
+    },
+    {
+      "persona_id": "Z095",
+      "label": "Weekend Trail Explorer",
+      "type": "realworld_cluster",
+      "demographic_context": "Late 20s to 40s, works weekdays, spends some weekends hiking. Frequently reads product reviews.",
+      "primary_motivation": "Stay safe and comfortable on trails without overbuying heavy gear.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Scenario-driven; imagines specific trail conditions.",
+      "buying_barriers": [
+        "Fear of slipping",
+        "Unclear use cases"
+      ],
+      "trust_triggers": [
+        "Trail photography",
+        "Grip and stability details"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Freedom",
+        "Adventure",
+        "Competence"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "TRAIL_OUTDOOR_ADVENTURERS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Z096",
+      "label": "Shift-Weary Server",
+      "type": "realworld_cluster",
+      "demographic_context": "20s to 40s, works long shifts in restaurants or cafes. Sticks with brands that deliver good experiences.",
+      "primary_motivation": "End shifts with less foot and back pain.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Empathy-driven; listens to stories from people like them.",
+      "buying_barriers": [
+        "Shoes that only feel good for first hour",
+        "Slippery soles"
+      ],
+      "trust_triggers": [
+        "Job-specific testimonials",
+        "Slip resistance claims",
+        "Comfort guarantees"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Relief",
+        "Safety",
+        "Being able to keep working"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "SERVICE_WORKERS_ON_FEET",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.6
+    },
+    {
+      "persona_id": "Z097",
+      "label": "Instagram-Aware Tastemaker",
+      "type": "realworld_cluster",
+      "demographic_context": "Mid 20s, lives in a stylish neighborhood, active on social platforms. Sticks with brands that deliver good experiences.",
+      "primary_motivation": "Curate looks that photograph well and feel unique.",
+      "info_density_preference": "low",
+      "cognitive_style": "Visual-first; cares more about look and story than technical detail.",
+      "buying_barriers": [
+        "Uninspired product photography",
+        "No story behind the design"
+      ],
+      "trust_triggers": [
+        "Styled shoots",
+        "Designer notes",
+        "Social proof"
+      ],
+      "tone_voice_preference": "premium and elegant",
+      "emotional_drivers": [
+        "Admiration",
+        "Aesthetic satisfaction",
+        "Being on-trend"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "FASHION_CITY_TASTEMAKERS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.3
+    },
+    {
+      "persona_id": "Z098",
+      "label": "Conscious Capsule Wardrober",
+      "type": "realworld_cluster",
+      "demographic_context": "Early 30s to mid 40s, cares about sustainability and minimalism. Sticks with brands that deliver good experiences.",
+      "primary_motivation": "Own fewer shoes that are versatile, durable, and ethically made.",
+      "info_density_preference": "high",
+      "cognitive_style": "Reflective; reads details about materials and lifecycle.",
+      "buying_barriers": [
+        "Vague sustainability claims",
+        "Flimsy construction"
+      ],
+      "trust_triggers": [
+        "Certifications",
+        "Manufacturing transparency",
+        "Longevity messaging"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Integrity",
+        "Coherence with values",
+        "Calm"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "ECO_MINDFUL_MINIMALISTS",
+          "weight": 1.0
+        }
+      ],
+      "prevalence": 0.5
+    },
+    {
+      "persona_id": "Z099",
+      "label": "Active Grandparent Walker",
+      "type": "realworld_cluster",
+      "demographic_context": "60s, retired or part-time, walks daily for health. Often buys after seeing ads on social media.",
+      "primary_motivation": "Stay mobile and comfortable to keep up with life and family.",
+      "info_density_preference": "medium",
+      "cognitive_style": "Careful; reads key sections and reassurance text.",
+      "buying_barriers": [
+        "Fear of tripping or pain",
+        "Suspicion of overhyped claims"
+      ],
+      "trust_triggers": [
+        "Clear health benefits",
+        "Foot-support details",
+        "Simple copy"
+      ],
+      "tone_voice_preference": "calm and reassuring",
+      "emotional_drivers": [
+        "Independence",
+        "Comfort",
+        "Connection with family"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "MATURE_COMFORT_SEEKERS",
+          "weight": 0.655
+        },
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.081
+        },
+        {
+          "market_id": "SERVICE_WORKERS_ON_FEET",
+          "weight": 0.264
+        }
+      ],
+      "prevalence": 0.6
+    },
+    {
+      "persona_id": "Z100",
+      "label": "Injury-Recovery Planner",
+      "type": "realworld_cluster",
+      "demographic_context": "30s to 50s, has had foot or knee issues, advised to wear better shoes. Sticks with brands that deliver good experiences.",
+      "primary_motivation": "Avoid re-injury and manage pain through better footwear.",
+      "info_density_preference": "high",
+      "cognitive_style": "Evidence-seeking; cares about expert input and clear design rationale.",
+      "buying_barriers": [
+        "Marketing with no evidence",
+        "Unclear support features"
+      ],
+      "trust_triggers": [
+        "Orthopedic or expert framing",
+        "Design explanations",
+        "Testimonials from similar cases"
+      ],
+      "tone_voice_preference": "clear and factual",
+      "emotional_drivers": [
+        "Safety",
+        "Recovery",
+        "Long-term health"
+      ],
+      "market_affinity": [
+        {
+          "market_id": "MATURE_COMFORT_SEEKERS",
+          "weight": 0.203
+        },
+        {
+          "market_id": "FOOT_HEALTH_PRIORITY",
+          "weight": 0.797
+        }
+      ],
+      "prevalence": 0.5
+    }
+  ]
+}

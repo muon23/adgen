@@ -1,0 +1,46 @@
+{
+  "round": 2,
+  "target_market_name": "URBAN_COMMUTERS",
+  "overall_direction": "Shorten the headline and reduce copy density. Emphasize comfort for long commutes.",
+
+  "layout_guidance": {
+    "preferred_layout_ids": ["minimal_hero", "visual_benefit_focus"],
+    "avoid_layout_ids": ["detailed_story"],
+    "reasoning": "Multiple personas indicated the current layout felt slightly wordy."
+  },
+
+  "slot_guidance": {
+    "headline": {
+      "issues": [
+        "Too long",
+        "Not specific to commute needs"
+      ],
+      "suggestions": [
+        "Make it under 10 words",
+        "Highlight all-day comfort"
+      ]
+    },
+    "benefits": {
+      "issues": [
+        "Bullets too generic",
+        "Missing commute-specific functional value"
+      ],
+      "suggestions": [
+        "Include one benefit about long walking or standing",
+        "Highlight breathable materials for humid city environments"
+      ]
+    },
+    "cta_text": {
+      "issues": [],
+      "suggestions": ["Optional: make action clearer, e.g. 'See Comfort Options'"]
+    }
+  },
+
+  "top_cited_problems": [
+    "Too wordy",
+    "Headline unclear",
+    "Lacks commute-specific benefits"
+  ],
+
+  "summary_for_humans": "Customers preferred shorter copy, clearer comfort emphasis, and a more scannable layout."
+}

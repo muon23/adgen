@@ -1,0 +1,15 @@
+{
+  "selected_layout_id": "minimal_hero",
+  "filled_slots": {
+    "headline": "Example headline text",
+    "subheadline": "Example subheadline text",
+    "benefits": [
+      "Example benefit 1",
+      "Example benefit 2",
+      "Example benefit 3"
+    ],
+    "cta_text": "Shop Now",
+    "footer_note": "Example footer note"
+  },
+  "improvement_summary": "Example improvement summary describing changes made"
+}

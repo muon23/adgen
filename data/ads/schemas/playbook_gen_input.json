@@ -1,0 +1,78 @@
+{
+  "round": 2,
+  "product_url": "https://example.com/product/123",
+  "target_market_name": "URBAN_COMMUTERS",
+  "previous_ad": {
+    "selected_layout_id": "minimal_hero",
+    "filled_slots": {
+      "headline": "Lightweight comfort for every commute",
+      "subheadline": "Move freely from office to evening.",
+      "benefits": [
+        "All-day cushioning",
+        "Breathable upper",
+        "Streamlined, professional silhouette"
+      ],
+      "cta_text": "Shop Now",
+      "footer_note": "Free returns within 30 days."
+    },
+    "improvement_summary": "Initial baseline ad."
+  },
+  "feedback_list": [
+    {
+      "persona_id": "Z017",
+      "target_market_name": "URBAN_COMMUTERS",
+      "selected_layout_id": "minimal_hero",
+      "filled_slots": {
+        "headline": "Lightweight comfort for every commute",
+        "subheadline": "Move freely from office to evening.",
+        "benefits": [
+          "All-day cushioning",
+          "Breathable upper",
+          "Streamlined, professional silhouette"
+        ],
+        "cta_text": "Shop Now",
+        "footer_note": "Free returns within 30 days."
+      },
+      "ratings": {
+        "clarity": 6,
+        "trustworthiness": 7,
+        "relevance": 5,
+        "aesthetic_appeal": 6,
+        "purchase_likelihood": 4
+      },
+      "feedback_text": "The ad is okay but too wordy for me. I want the headline much shorter.",
+      "improvement_suggestions": [
+        "Shorter headline",
+        "Highlight comfort earlier",
+        "Reduce bullet count"
+      ]
+    },
+    {
+      "persona_id": "Y001",
+      "target_market_name": "URBAN_COMMUTERS",
+      "selected_layout_id": "minimal_hero",
+      "filled_slots": {
+        "headline": "Lightweight comfort for every commute",
+        "subheadline": "Move freely from office to evening.",
+        "benefits": [
+          "All-day cushioning",
+          "Breathable upper"
+        ],
+        "cta_text": "Shop Now",
+        "footer_note": "Free returns within 30 days."
+      },
+      "ratings": {
+        "clarity": 7,
+        "trustworthiness": 8,
+        "relevance": 6,
+        "aesthetic_appeal": 7,
+        "purchase_likelihood": 5
+      },
+      "feedback_text": "Good ad, but could use more technical details about the materials.",
+      "improvement_suggestions": [
+        "Add material specifications",
+        "Include durability information"
+      ]
+    }
+  ]
+}
