@@ -38,7 +38,7 @@ class AdaptiveGenerator(Generator):
     def __init__(
             self,
             llm: str,
-            layout_catalog_path: Optional[str] = None,
+            layout_catalog_path: str,
             target_market_or_user: Optional[str] = None,
             system_prompt: Optional[str] = None,
             user_prompt: Optional[str] = None,
@@ -51,8 +51,7 @@ class AdaptiveGenerator(Generator):
         
         Args:
             llm: LLM model name
-            layout_catalog_path: Path to layout descriptions JSON file. 
-                                 Defaults to data/layout_descriptions_jinja2.json
+            layout_catalog_path: Path to layout descriptions JSON file (required)
             target_market_or_user: Target market name or user ID for ad generation
             system_prompt: Override for DEFAULT_SYSTEM_PROMPT
             user_prompt: Override for DEFAULT_USER_PROMPT

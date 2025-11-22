@@ -1,10 +1,10 @@
 import json
 import textwrap
 from abc import ABC, abstractmethod
-from pathlib import Path
 from typing import Any, Dict, Optional
 
 import llms
+from .Layouts import Layouts
 
 
 class Generator(ABC):
@@ -68,7 +68,7 @@ class Generator(ABC):
     def __init__(
             self,
             llm: str,
-            layout_catalog_path: Optional[str] = None,
+            layout_catalog_path: str,
             target_market_or_user: Optional[str] = None,
             system_prompt: Optional[str] = None,
             user_prompt: Optional[str] = None
@@ -78,8 +78,7 @@ class Generator(ABC):
         
         Args:
             llm: LLM model name
-            layout_catalog_path: Path to layout descriptions JSON file. 
-                                 Defaults to data/layout_descriptions_jinja2.json
+            layout_catalog_path: Path to layout descriptions JSON file (required)
             target_market_or_user: Target market name or user ID for ad generation
             system_prompt: Override for DEFAULT_SYSTEM_PROMPT
             user_prompt: Override for DEFAULT_USER_PROMPT
@@ -89,14 +88,8 @@ class Generator(ABC):
         self.system_prompt = system_prompt if system_prompt is not None else self.DEFAULT_SYSTEM_PROMPT
         self.user_prompt = user_prompt if user_prompt is not None else self.DEFAULT_USER_PROMPT
 
-        # Load layout catalog
-        if layout_catalog_path is None:
-            project_root = Path(__file__).parent.parent.parent.parent
-            layout_catalog_path = str(project_root / "data" / "layout_descriptions_jinja2.json")
-
-        with open(layout_catalog_path, 'r', encoding='utf-8') as f:
-            layout_data = json.load(f)
-            self.layout_catalog = layout_data.get("layout_descriptions", [])
+        # Load layouts using Layouts class
+        self.layouts = Layouts(layout_catalog_path)
 
     def _get_template_variables(
             self,
@@ -108,7 +101,7 @@ class Generator(ABC):
         mode_specific_input = self._get_mode_specific_input()
         mode_specific_output_format = self._get_mode_specific_output_format()
         mode_specific_behavior = self._get_mode_specific_behavior()
-        layout_catalog_str = json.dumps(self.layout_catalog, indent=2)
+        layout_catalog_str = self.layouts.for_generator()
 
         return {
             "mode_specific_input": mode_specific_input,
@@ -166,8 +159,9 @@ class Generator(ABC):
             feedback_list_json=feedback_list_json
         )
 
-        # Invoke LLM with template variables as kwargs
-        response = self.llm.invoke(messages, **template_vars)
+        # Invoke LLM with messages and template variables as arguments
+        # The Llm.invoke() method will handle Jinja2 template rendering internally
+        response = self.llm.invoke(messages, arguments=template_vars, prompt_format="jinja2")
 
         # Parse JSON response
         response_text = response.text if hasattr(response, 'text') else str(response)

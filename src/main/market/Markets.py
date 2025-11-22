@@ -4,95 +4,96 @@ from pathlib import Path
 from typing import Any, Optional
 
 
+@dataclass
+class Market:
+    market_id: str
+    label: str
+    description: str
+    properties: dict[str, Any] = field(default_factory=dict)  # Other properties describing the market
+
+    def to_json(self) -> str:
+        """
+        Convert content to JSON string. Flatten properties.
+
+        Returns:
+            JSON string with all properties flattened (not nested under 'properties')
+        """
+        result = {
+            "market_id": self.market_id,
+            "label": self.label,
+            "description": self.description
+        }
+        # Add all properties
+        result.update(self.properties)
+        return json.dumps(result, indent=2, ensure_ascii=False)
+
+    @classmethod
+    def from_json(cls, json_str: str) -> "Market":
+        """
+        Create a Market object from the JSON string.
+
+        Args:
+            json_str: JSON string containing market data
+
+        Returns:
+            Market instance
+        """
+        data = json.loads(json_str)
+        return cls.from_dict(data)
+
+    @classmethod
+    def from_dict(cls, data: dict[str, Any]) -> "Market":
+        """
+        Create a Market object from a dictionary.
+
+        Args:
+            data: Dictionary containing market data
+
+        Returns:
+            Market instance
+        """
+        # Extract core fields
+        market_id = data.get("market_id", "")
+        label = data.get("label", "")
+        description = data.get("description", "")
+
+        # All other fields go into properties
+        core_fields = {"market_id", "label", "description"}
+        properties = {k: v for k, v in data.items() if k not in core_fields}
+
+        return cls(
+            market_id=market_id,
+            label=label,
+            description=description,
+            properties=properties
+        )
+
+    def __getattr__(self, name: str) -> Any:
+        """
+        Access properties using attribute syntax.
+
+        This allows accessing properties like market.age_range instead of market.properties["age_range"].
+        Core fields (market_id, label, description) are accessed normally.
+
+        Args:
+            name: Property name to access
+
+        Returns:
+            Property value
+
+        Raises:
+            AttributeError: If property doesn't exist
+        """
+        if name in self.properties:
+            return self.properties[name]
+        raise AttributeError(f"'{type(self).__name__}' object has no attribute '{name}'")
+
+
 class Markets:
-
-    @dataclass
-    class Market:
-        market_id: str
-        label: str
-        description: str
-        properties: dict[str, Any] = field(default_factory=dict)  # Other properties describing the market
-
-        def to_json(self) -> str:
-            """
-            Convert content to JSON string. Flatten properties.
-            
-            Returns:
-                JSON string with all properties flattened (not nested under 'properties')
-            """
-            result = {
-                "market_id": self.market_id,
-                "label": self.label,
-                "description": self.description
-            }
-            # Add all properties
-            result.update(self.properties)
-            return json.dumps(result, indent=2, ensure_ascii=False)
-
-        @classmethod
-        def from_json(cls, json_str: str) -> "Markets.Market":
-            """
-            Create a Market object from the JSON string.
-            
-            Args:
-                json_str: JSON string containing market data
-                
-            Returns:
-                Market instance
-            """
-            data = json.loads(json_str)
-            return cls.from_dict(data)
-
-        @classmethod
-        def from_dict(cls, data: dict[str, Any]) -> "Markets.Market":
-            """
-            Create a Market object from a dictionary.
-            
-            Args:
-                data: Dictionary containing market data
-                
-            Returns:
-                Market instance
-            """
-            # Extract core fields
-            market_id = data.get("market_id", "")
-            label = data.get("label", "")
-            description = data.get("description", "")
-            
-            # All other fields go into properties
-            core_fields = {"market_id", "label", "description"}
-            properties = {k: v for k, v in data.items() if k not in core_fields}
-            
-            return cls(
-                market_id=market_id,
-                label=label,
-                description=description,
-                properties=properties
-            )
-
-        def __getattr__(self, name: str) -> Any:
-            """
-            Access properties using attribute syntax.
-            
-            This allows accessing properties like market.age_range instead of market.properties["age_range"].
-            Core fields (market_id, label, description) are accessed normally.
-            
-            Args:
-                name: Property name to access
-                
-            Returns:
-                Property value
-                
-            Raises:
-                AttributeError: If property doesn't exist
-            """
-            if name in self.properties:
-                return self.properties[name]
-            raise AttributeError(f"'{type(self).__name__}' object has no attribute '{name}'")
 
     def __init__(self):
         """Initialize an empty Markets collection."""
-        self.market: dict[str, "Markets.Market"] = {}  # market_id -> Market lookup
+        self.market: dict[str, Market] = {}  # market_id -> Market lookup
 
     @classmethod
     def of(cls, file: str) -> "Markets":
@@ -119,10 +120,10 @@ class Markets:
         file_path = Path(file)
         with open(file_path, 'r', encoding='utf-8') as f:
             data = json.load(f)
-        
+
         if "target_markets" in data:
             for market_data in data["target_markets"]:
-                market = self.Market.from_dict(market_data)
+                market = Market.from_dict(market_data)
                 self.market[market.market_id] = market
 
     def get(self, market_id: str) -> Optional[Market]:
@@ -148,4 +149,3 @@ class Markets:
     def __contains__(self, market_id: str) -> bool:
         """Check if a market with the given ID exists."""
         return market_id in self.market
-
