@@ -77,6 +77,39 @@ class Layouts:
         """
         return self.layouts_by_id.get(layout_id)
     
+    def render_html_4b(self, layout_id: str, **kwargs: Any) -> str:
+        """
+        Renders HTML for a specific layout using html_4b field as a template.
+        
+        The content slots are filled with values from **kwargs.
+        
+        Args:
+            layout_id: ID of the layout to render
+            **kwargs: Values for content slots (e.g., headline="...", benefits=[...])
+            
+        Returns:
+            Rendered HTML string
+            
+        Raises:
+            ValueError: If layout_id is not found or html_4b template is missing
+        """
+        # Find the layout by ID using the dictionary
+        layout = self.get(layout_id)
+        
+        if layout is None:
+            raise ValueError(f"Layout with id '{layout_id}' not found")
+        
+        # Get the html_4b template
+        html_template_str = layout.get("html_4b", "")
+        if not html_template_str:
+            raise ValueError(f"Layout '{layout_id}' does not have html_4b template")
+        
+        # Render the template with Jinja2
+        template = Template(html_template_str)
+        rendered_html = template.render(**kwargs)
+        
+        return rendered_html
+    
     def for_human(self, layout_id: str, **kwargs: Any) -> str:
         """
         Outputs an HTML page for a specific layout using html_4p field as a template.
